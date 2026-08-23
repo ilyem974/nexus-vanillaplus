@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "name": "Nexus Vanilla+ 0.5.0 Remastered",
-  "packVersion": "0.5.0",
+  "name": "Nexus Vanilla+ 0.5.1 Remastered",
+  "packVersion": "0.5.1",
   "minecraftVersion": "1.21.1",
   "loader": "neoforge",
   "loaderVersion": "21.1.248",
@@ -204,6 +204,15 @@
       "algorithm": "sha512",
       "hash": "e097b11d6f14e0957bab6c0276b81542e786cb86b9c31d9f25975f8c9fb04a734188b8790683298bbc5c695dc3de7d6e947616a20ad26d4a728a3beb0bb78667",
       "size": 361486,
+      "source": "Modrinth"
+    },
+    {
+      "path": "mods/CerbonsAPI-NeoForge-1.21-1.3.0.jar",
+      "name": "CERBON's API",
+      "url": "https://cdn.modrinth.com/data/GkIc6rRo/versions/5wbxkBQ1/CerbonsAPI-NeoForge-1.21-1.3.0.jar",
+      "algorithm": "sha512",
+      "hash": "6bd24b718d532cdd0c49150eefc223b4d7c3550bbc81d5c65ed84b704bf3c8e20d3cb3524082688383cc4aba38e190921976b056b84d5755670c5399a7c7e627",
+      "size": 250545,
       "source": "Modrinth"
     },
     {
@@ -1161,6 +1170,15 @@
       "source": "Modrinth"
     },
     {
+      "path": "mods/L_Ender's Cataclysm 1.21.1-3.33.jar",
+      "name": "L_Ender's Cataclysm",
+      "url": "https://cdn.modrinth.com/data/46KJle7n/versions/mYBUDZWl/L_Ender%27s%20Cataclysm%201.21.1-3.33.jar",
+      "algorithm": "sha512",
+      "hash": "359ad3681aba479486519a79fd227afc608b66d2843afe1f6c7196da6807683792b4ecea761e824f15b03d13d6ff29380b439bdd5bb1d2472a065ae8e83743d9",
+      "size": 73375661,
+      "source": "Modrinth"
+    },
+    {
       "path": "mods/LegendaryTooltips-1.21.1-neoforge-1.5.5.jar",
       "name": "Legendary Tooltips",
       "url": "https://cdn.modrinth.com/data/atHH8NyV/versions/BabRJO04/LegendaryTooltips-1.21.1-neoforge-1.5.5.jar",
@@ -1176,6 +1194,15 @@
       "algorithm": "sha512",
       "hash": "f39186bb01788dcab2a60a750f4276239c3a6e4249aa604b736cadad38490dc3a644bf3d3d12ced383fc48dd0a9dd8a5f84673f11b5c80eb3efe496069255222",
       "size": 80094,
+      "source": "Modrinth"
+    },
+    {
+      "path": "mods/lionfishapi-3.1.jar",
+      "name": "Lionfish API",
+      "url": "https://cdn.modrinth.com/data/FoVacERa/versions/fTRMVgyZ/lionfishapi-3.1.jar",
+      "algorithm": "sha512",
+      "hash": "fdd90f19d0424c3a837111291d6ac1547d62cbcedd43b74d3a8946912f9c5212a5ea239a6969eccf678289bcb77cbb9a937db01fdaf60e57826f9a99893d19cb",
+      "size": 91596,
       "source": "Modrinth"
     },
     {
@@ -1320,6 +1347,15 @@
       "algorithm": "sha512",
       "hash": "b85ef19b3a40b948485ab84af07fd97fc7ecf43832147883bd2c1d2db8c6df99236fb1f0622afd144341742fa397f7a37bec21204380350a14c1818299209466",
       "size": 335661,
+      "source": "Modrinth"
+    },
+    {
+      "path": "mods/MOTS-NeoForge-1.21.1-1.3.0.jar",
+      "name": "Myths of The Sea",
+      "url": "https://cdn.modrinth.com/data/WaCchT6K/versions/veASg7rX/MOTS-NeoForge-1.21.1-1.3.0.jar",
+      "algorithm": "sha512",
+      "hash": "187de06f78e0bc3d8365201341577177620ae389248eec841e2d5444fb25e2aeba04a1c1cda7d3422a000465ab5cb5af44c0b66c667f240764aabcf722cf64ad",
+      "size": 8387535,
       "source": "Modrinth"
     },
     {
@@ -1991,9 +2027,9 @@
   ],
   "overrides": {
     "resource": "pack-overrides.zip",
-    "url": "https://raw.githubusercontent.com/ilyem974/nexus-vanillaplus/main/channel/pack/pack-overrides-65ad06215747251c.zip",
+    "url": "https://raw.githubusercontent.com/ilyem974/nexus-vanillaplus/main/channel/pack/pack-overrides-4dadefce8cc55769.zip",
     "algorithm": "sha512",
-    "hash": "65ad06215747251cca02ed1396df04792392b74481d1bd6b78d6af3a0c0e7ebf8b05420bafff0893bccfea9cb3eecb8d8cf6801a968fa7367054e7ec9b545314",
-    "size": 712681
+    "hash": "4dadefce8cc55769f666811ed550272b7443166d9eb65efd676ff8438d1ac54344cc60788bcb46dad2e628ec54c9c54c4827764647a3dd19df8b658e0802924c",
+    "size": 720936
   }
 }
