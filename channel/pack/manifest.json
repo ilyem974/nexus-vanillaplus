@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "name": "Nexus Vanilla+ 0.5.1 Remastered",
-  "packVersion": "0.5.1",
+  "name": "Nexus Vanilla+ 0.5.2 Remastered",
+  "packVersion": "0.5.2",
   "minecraftVersion": "1.21.1",
   "loader": "neoforge",
   "loaderVersion": "21.1.248",
@@ -718,6 +718,15 @@
       "hash": "ad07ce23364de86332bd22eac55d425e2f766e1cded85f4f5cd30451d39a50e23ba4e7cf1281ec5f8ac32e19f4f4ec1773417a6f77201a694aec2df9d93a4a40",
       "size": 11255751,
       "source": "Modrinth"
+    },
+    {
+      "path": "mods/Dragon Mounts Remastered-1.21.1-1.9.2.jar",
+      "name": "Dragon Mounts Remastered",
+      "url": "https://mediafilez.forgecdn.net/files/6974/554/Dragon%20Mounts%20Remastered-1.21.1-1.9.2.jar",
+      "algorithm": "sha512",
+      "hash": "90bd999d0378d24312a13bc0f44c45f9d756c5637684ddde688f0ba5ee5724f654eca11c19098c0b61b83374b88f9804283d10a3a38a5e36bfc91540f6b5c079",
+      "size": 1308509,
+      "source": "CurseForge"
     },
     {
       "path": "mods/dragonlib-neoforge-1.21.1-beta-3.0.28.jar",
@@ -1665,6 +1674,15 @@
       "source": "Modrinth"
     },
     {
+      "path": "mods/seamlessores-neoforge-1.21.1-3.0.0.jar",
+      "name": "Seamless Ores",
+      "url": "https://mediafilez.forgecdn.net/files/8653/342/seamlessores-neoforge-1.21.1-3.0.0.jar",
+      "algorithm": "sha512",
+      "hash": "084aeca5182f3248cadac1b7cdf7423dbbd7ad68f18b3dbbf8e5d4b35a389a43152b6273d6aaac149d069857890d78b27e66f7855b37c827771d6ef725f7a962",
+      "size": 614215,
+      "source": "CurseForge"
+    },
+    {
       "path": "mods/Searchables-neoforge-1.21.1-1.0.2.jar",
       "name": "Searchables",
       "url": "https://cdn.modrinth.com/data/fuuu3xnx/versions/iEE85X0w/Searchables-neoforge-1.21.1-1.0.2.jar",
@@ -2027,9 +2045,9 @@
   ],
   "overrides": {
     "resource": "pack-overrides.zip",
-    "url": "https://raw.githubusercontent.com/ilyem974/nexus-vanillaplus/main/channel/pack/pack-overrides-4dadefce8cc55769.zip",
+    "url": "https://raw.githubusercontent.com/ilyem974/nexus-vanillaplus/main/channel/pack/pack-overrides-57d147941b1693cb.zip",
     "algorithm": "sha512",
-    "hash": "4dadefce8cc55769f666811ed550272b7443166d9eb65efd676ff8438d1ac54344cc60788bcb46dad2e628ec54c9c54c4827764647a3dd19df8b658e0802924c",
-    "size": 720936
+    "hash": "57d147941b1693cbb5076b27fd8dd00d21d0dea29715c3fa70529ba24efffbf988a664070ceb449b475018bdc88124706eb7fc0097f76e8c5af3076366994dee",
+    "size": 729434
   }
 }
