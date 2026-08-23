@@ -1,7 +1,7 @@
 {
     "schemaVersion":  1,
-    "name":  "Nexus Vanilla+ 0.5.6 Remastered",
-    "packVersion":  "0.5.6",
+    "name":  "Nexus Vanilla+ 0.5.7 Turbojet Fighter Jets - Auto Tested - 6GB",
+    "packVersion":  "0.5.7",
     "minecraftVersion":  "1.21.1",
     "loader":  "neoforge",
     "loaderVersion":  "21.1.248",
@@ -432,24 +432,6 @@
                       "source":  "Modrinth"
                   },
                   {
-                      "path":  "mods/create-aeronautics-bundled-1.21.1-1.3.1.jar",
-                      "name":  "Create Aeronautics",
-                      "url":  "https://cdn.modrinth.com/data/oWaK0Q19/versions/Vzp221Un/create-aeronautics-bundled-1.21.1-1.3.1.jar",
-                      "algorithm":  "sha512",
-                      "hash":  "16ba7a2c8335443bdf6ad4777737b762f09452be2dd364f801fd20b35eb581473161763699ec37eb12d1aeaf8c18cf8299b2152e24334eedcc9fe662af5bbb27",
-                      "size":  33121810,
-                      "source":  "Modrinth"
-                  },
-                  {
-                      "path":  "mods/createbigcannons-5.11.7+mc.1.21.1.jar",
-                      "name":  "Create Big Cannons",
-                      "url":  "https://cdn.modrinth.com/data/GWp4jCJj/versions/bOiDu0LS/createbigcannons-5.11.7%2Bmc.1.21.1.jar",
-                      "algorithm":  "sha512",
-                      "hash":  "24f414dfbb973a0f4d9c9b2aa059edc7bed4d23b4f39eb1f7d23a1d6b437e3b5d64cca6e4b85ff7eb2815743fa711d54ad652bffe96d1eb1234544716006440d",
-                      "size":  3771506,
-                      "source":  "Modrinth"
-                  },
-                  {
                       "path":  "mods/createcafe-1.4.3.jar",
                       "name":  "Create Cafe",
                       "url":  "https://cdn.modrinth.com/data/O3hKBfwC/versions/5CZzXBed/createcafe-1.4.3.jar",
@@ -528,24 +510,6 @@
                       "algorithm":  "sha512",
                       "hash":  "4c76a626f8c27cc97ae834109beaa919c8e94e8d130dffb336b6f9807e7874cc03291b4676e6590278eb7e9d598a422ee51c022ba3348eab7d92d3ddfcfe5ef9",
                       "size":  595923,
-                      "source":  "Modrinth"
-                  },
-                  {
-                      "path":  "mods/createmissiles-1.0.3+neoforge-1.21.1.jar",
-                      "name":  "Create: Missiles",
-                      "url":  "https://cdn.modrinth.com/data/8dmJJTC3/versions/E879erNz/createmissiles-1.0.3%2Bneoforge-1.21.1.jar",
-                      "algorithm":  "sha512",
-                      "hash":  "afb75283adaf801472de1f2dcdb1296d17086f448a4b61606cad5e88194d664cc50610c3cd849183a4e06da9d95a37341a5b2a26971c6a00206084f48967982f",
-                      "size":  2871223,
-                      "source":  "Modrinth"
-                  },
-                  {
-                      "path":  "mods/createnuclear-1.3.2-beta.3-neoforge.jar",
-                      "name":  "Create: Nuclear",
-                      "url":  "https://cdn.modrinth.com/data/z611fdf7/versions/waO2BSHO/createnuclear-1.3.2-beta.3-neoforge.jar",
-                      "algorithm":  "sha512",
-                      "hash":  "39d9691d8f00f375a438193139c30fe60032cf04cd99d83fa428fefef5c8ed79d49d8f09b5f0e57fb4b2c4058fc4c2bad942a0913dd885f701a5e9f0d9d2f36f",
-                      "size":  1842160,
                       "source":  "Modrinth"
                   },
                   {
@@ -2077,13 +2041,67 @@
                       "hash":  "40bcbac9c656f2965f543e4b35cd0698723b2db8b67662f1b53c14223cfbef7d60d7fbf0176f73fcadd0d1e19ba60d951ed77e9eece8c8df7dca4d2be6315309",
                       "size":  3800987,
                       "source":  "Modrinth"
+                  },
+                  {
+                      "path":  "mods/create-aeronautics-bundled-1.21.1-1.3.1.jar",
+                      "name":  "Create Aeronautics",
+                      "url":  "https://cdn.modrinth.com/data/oWaK0Q19/versions/Vzp221Un/create-aeronautics-bundled-1.21.1-1.3.1.jar",
+                      "algorithm":  "sha512",
+                      "hash":  "16ba7a2c8335443bdf6ad4777737b762f09452be2dd364f801fd20b35eb581473161763699ec37eb12d1aeaf8c18cf8299b2152e24334eedcc9fe662af5bbb27",
+                      "size":  33121810,
+                      "source":  "Modrinth"
+                  },
+                  {
+                      "path":  "mods/createbigcannons-5.11.7+mc.1.21.1.jar",
+                      "name":  "Create Big Cannons",
+                      "url":  "https://cdn.modrinth.com/data/GWp4jCJj/versions/bOiDu0LS/createbigcannons-5.11.7%2Bmc.1.21.1.jar",
+                      "algorithm":  "sha512",
+                      "hash":  "24f414dfbb973a0f4d9c9b2aa059edc7bed4d23b4f39eb1f7d23a1d6b437e3b5d64cca6e4b85ff7eb2815743fa711d54ad652bffe96d1eb1234544716006440d",
+                      "size":  3771506,
+                      "source":  "Modrinth"
+                  },
+                  {
+                      "path":  "mods/createmissiles-1.0.3+neoforge-1.21.1.jar",
+                      "name":  "Create Missiles",
+                      "url":  "https://cdn.modrinth.com/data/8dmJJTC3/versions/E879erNz/createmissiles-1.0.3%2Bneoforge-1.21.1.jar",
+                      "algorithm":  "sha512",
+                      "hash":  "afb75283adaf801472de1f2dcdb1296d17086f448a4b61606cad5e88194d664cc50610c3cd849183a4e06da9d95a37341a5b2a26971c6a00206084f48967982f",
+                      "size":  2871223,
+                      "source":  "Modrinth"
+                  },
+                  {
+                      "path":  "mods/createnuclear-1.3.2-beta.3-neoforge.jar",
+                      "name":  "Create Nuclear",
+                      "url":  "https://cdn.modrinth.com/data/z611fdf7/versions/waO2BSHO/createnuclear-1.3.2-beta.3-neoforge.jar",
+                      "algorithm":  "sha512",
+                      "hash":  "39d9691d8f00f375a438193139c30fe60032cf04cd99d83fa428fefef5c8ed79d49d8f09b5f0e57fb4b2c4058fc4c2bad942a0913dd885f701a5e9f0d9d2f36f",
+                      "size":  1842160,
+                      "source":  "Modrinth"
+                  },
+                  {
+                      "path":  "mods/morepropulsion-1.3.0.jar",
+                      "name":  "Create Simulated Jet Engines",
+                      "url":  "https://edge.forgecdn.net/files/8504/524/morepropulsion-1.3.0.jar",
+                      "algorithm":  "sha512",
+                      "hash":  "8aced100aa4f4c5345685ee644810b9e4f9df06a0bdddc61039c8755c84414b79e1ecc856f0441a0391d89e077889c46c44e37581d5c225e0d43bb298ad8f7d0",
+                      "size":  783700,
+                      "source":  "CurseForge"
+                  },
+                  {
+                      "path":  "mods/create_the_air_wars-4.67.jar",
+                      "name":  "Create The Air War",
+                      "url":  "https://cdn.modrinth.com/data/GMrNnOis/versions/JnF14u1u/create_the_air_wars-4.67.jar",
+                      "algorithm":  "sha512",
+                      "hash":  "74c617d342c7c43b9ef67e22d3791a0ca7681bb64792c29ae45bfaafb2f9fe3c74d711b2c7334b008c446c1dae3eec4c208a28e55a37d27a0df2627a1e05ee5b",
+                      "size":  10538024,
+                      "source":  "Modrinth"
                   }
               ],
     "overrides":  {
-                      "resource":  "pack-overrides.zip",
-                      "url":  "https://raw.githubusercontent.com/ilyem974/nexus-vanillaplus/main/channel/pack/pack-overrides-57d147941b1693cb.zip",
+                      "resource":  "pack-overrides-de7b349b6d6bdb7f.zip",
+                      "url":  "https://raw.githubusercontent.com/ilyem974/nexus-vanillaplus/main/channel/pack/pack-overrides-de7b349b6d6bdb7f.zip",
                       "algorithm":  "sha512",
-                      "hash":  "57d147941b1693cbb5076b27fd8dd00d21d0dea29715c3fa70529ba24efffbf988a664070ceb449b475018bdc88124706eb7fc0097f76e8c5af3076366994dee",
-                      "size":  729434
+                      "hash":  "de7b349b6d6bdb7f54279a3b3b2fb22376d72722acc98a97571255ef1e914dd45dddb40736c67341735c58c6912246280202054f57f37dbf251e63b1c159a5df",
+                      "size":  749213
                   }
 }
