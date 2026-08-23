@@ -1,7 +1,7 @@
 {
     "schemaVersion":  1,
-    "name":  "Nexus Vanilla+ 0.5.7 Turbojet Fighter Jets - Auto Tested - 6GB",
-    "packVersion":  "0.5.7",
+    "name":  "Nexus Vanilla+ 0.5.8 - Black Screen Fix - No LightSpeedRe",
+    "packVersion":  "0.5.8",
     "minecraftVersion":  "1.21.1",
     "loader":  "neoforge",
     "loaderVersion":  "21.1.248",
@@ -1203,15 +1203,6 @@
                       "algorithm":  "sha512",
                       "hash":  "3c0de6b6597a57b0fc3a134dde03ea3aeed0a7d64db63def8eda182c8bb7717293d2e4753887dcecaa27e17051c308269039eec6e74186d5eede68f98e74feeb",
                       "size":  81808,
-                      "source":  "Modrinth"
-                  },
-                  {
-                      "path":  "mods/lightspeed-1.21.1-1.2.3.jar",
-                      "name":  "LightSpeedRe",
-                      "url":  "https://cdn.modrinth.com/data/niZHUKxZ/versions/zC933Wl3/lightspeed-1.21.1-1.2.3.jar",
-                      "algorithm":  "sha512",
-                      "hash":  "f39186bb01788dcab2a60a750f4276239c3a6e4249aa604b736cadad38490dc3a644bf3d3d12ced383fc48dd0a9dd8a5f84673f11b5c80eb3efe496069255222",
-                      "size":  80094,
                       "source":  "Modrinth"
                   },
                   {
