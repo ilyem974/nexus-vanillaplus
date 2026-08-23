@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "name": "Nexus Vanilla+ 0.5.2 Remastered",
-  "packVersion": "0.5.2",
+  "name": "Nexus Vanilla+ 0.5.3 Remastered",
+  "packVersion": "0.5.3",
   "minecraftVersion": "1.21.1",
   "loader": "neoforge",
   "loaderVersion": "21.1.248",
@@ -618,15 +618,6 @@
       "algorithm": "sha512",
       "hash": "f93bb48b07122d1c93cd931169752814c46f2ed964da987ab5ce654e8f70242c57265c3853bbb357f5fd95c412e775bf7b9a2abeb2a2a0858eae95c8d8ba451d",
       "size": 2098079,
-      "source": "Modrinth"
-    },
-    {
-      "path": "mods/cullparticles-neoforge-1.21-1.0.0.jar",
-      "name": "Cull Particles MultiLoader",
-      "url": "https://cdn.modrinth.com/data/Z0uZlmbF/versions/4ilDItnE/cullparticles-neoforge-1.21-1.0.0.jar",
-      "algorithm": "sha512",
-      "hash": "10a48aa01a009c6801562d39a5b294b353c49dff7f405e70eced95902efc82d69bb20a5e82313caa43f32885484bc47517a49ee2c878ef8c76e2c6eff6fcc5e7",
-      "size": 13126,
       "source": "Modrinth"
     },
     {
