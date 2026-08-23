@@ -1,7 +1,7 @@
 {
     "schemaVersion":  1,
-    "name":  "Nexus Vanilla+ 0.5.4 Remastered",
-    "packVersion":  "0.5.4",
+    "name":  "Nexus Vanilla+ 0.5.5 Remastered",
+    "packVersion":  "0.5.5",
     "minecraftVersion":  "1.21.1",
     "loader":  "neoforge",
     "loaderVersion":  "21.1.248",
@@ -1027,7 +1027,7 @@
                   },
                   {
                       "path":  "mods/Jade-1.21.1-NeoForge-15.10.6.jar",
-                      "name":  "Jade ðŸ”",
+                      "name":  "Jade Ã°Å¸â€Â",
                       "url":  "https://cdn.modrinth.com/data/nvQzSEkH/versions/eYz2YBGT/Jade-1.21.1-NeoForge-15.10.6.jar",
                       "algorithm":  "sha512",
                       "hash":  "dad9755dce8d85d914fc4df2baa0211f13e5839a71c1925fdd01f69081a95e30a2934e6273f8b01f0169adebe7a9dae57a8d904de0c4cb36dc17369bb474f0f2",
@@ -1063,7 +1063,7 @@
                   },
                   {
                       "path":  "mods/Kiwi-1.21.1-NeoForge-15.8.7.jar",
-                      "name":  "Kiwi ðŸ¥",
+                      "name":  "Kiwi Ã°Å¸Â¥Â",
                       "url":  "https://cdn.modrinth.com/data/ufdDoWPd/versions/tfwJWC8g/Kiwi-1.21.1-NeoForge-15.8.7.jar",
                       "algorithm":  "sha512",
                       "hash":  "d01c347febcb3d77bbfd2f44f38a80afbf4cf0b72a2aaa5d1875a38cbcd78be5a263fae4f63685256ea29c5f5f5d0f1c46892e2c78c4c1204863415dec9f4151",
@@ -1315,7 +1315,7 @@
                   },
                   {
                       "path":  "mods/owo-lib-neoforge-0.12.15.5-beta.1+1.21.jar",
-                      "name":  "oÏ‰o (owo-lib)",
+                      "name":  "oÃâ€°o (owo-lib)",
                       "url":  "https://cdn.modrinth.com/data/ccKDOlHs/versions/NMCHU6DZ/owo-lib-neoforge-0.12.15.5-beta.1%2B1.21.jar",
                       "algorithm":  "sha512",
                       "hash":  "4de5c5d52139244b8c5260d641087664d992624b822599a32e03c08eb133be854a2f413667dbca1e55772445b04a70210c17b3bc13e3c88e425e7d928104b9fa",
@@ -1558,7 +1558,7 @@
                   },
                   {
                       "path":  "mods/SnowRealMagic-1.21.1-NeoForge-12.2.2.jar",
-                      "name":  "Snow! Real Magic! â›„",
+                      "name":  "Snow! Real Magic! Ã¢â€ºâ€ž",
                       "url":  "https://cdn.modrinth.com/data/iJNje1E8/versions/CplQCHcl/SnowRealMagic-1.21.1-NeoForge-12.2.2.jar",
                       "algorithm":  "sha512",
                       "hash":  "d68a1761b96878d902ec1496ed97cab75f1fd5dad9375d73ad6bf336f2c39f7a64bbce40e66113f680f1a3e7762fe52b3b6fce309dc49ee5217e339c2b367c63",
@@ -1819,7 +1819,7 @@
                   },
                   {
                       "path":  "resourcepacks/Better Armors.zip",
-                      "name":  "Better Armors â€” textures d\u0027armures obligatoires",
+                      "name":  "Better Armors Ã¢â‚¬â€ textures d\u0027armures obligatoires",
                       "url":  "https://cdn.modrinth.com/data/uoToEm1E/versions/4Oy2hKfa/Better%20Armors.zip",
                       "algorithm":  "sha512",
                       "hash":  "2ec9e20c25ed467dfd8368ac877c8238b9a6874d2d4a3375eb132c569cb9817cbe060a3c173f58e1026c4c5dbabec0f566203d8bb79c4baf4c160ec3279a98e7",
@@ -1828,7 +1828,7 @@
                   },
                   {
                       "path":  "resourcepacks/True Dovah.zip",
-                      "name":  "True Dovah â€” Ice and Fire dragon textures",
+                      "name":  "True Dovah Ã¢â‚¬â€ Ice and Fire dragon textures",
                       "url":  "https://cdn.modrinth.com/data/1ttTrrTr/versions/Gt5qv6bZ/True%20Dovah.zip",
                       "algorithm":  "sha512",
                       "hash":  "fa5e8cbcc5be8545884407ee36be200934230bc843f7231cef65ed6b7b445648f890a9890d00840c69940827ff9747fe3622a0827de6516cc5b71da30bf2ae09",
@@ -1837,7 +1837,7 @@
                   },
                   {
                       "path":  "shaderpacks/MakeUp-UltraFast-9.5d.zip",
-                      "name":  "MakeUp Ultra Fast â€” shader rapide optionnel",
+                      "name":  "MakeUp Ultra Fast Ã¢â‚¬â€ shader rapide optionnel",
                       "url":  "https://cdn.modrinth.com/data/izsIPI7a/versions/4hOlA9Ej/MakeUp-UltraFast-9.5d.zip",
                       "algorithm":  "sha512",
                       "hash":  "729fe96ae6cbb8ee49204c9e780a42aa5cd6365d18d19eda7eafaf2f4e7dffcf4c514e3a466722f72d1e10ed65a1c6e38ca55deeb81e342b9245ae98eab85fc9",
@@ -1846,7 +1846,7 @@
                   },
                   {
                       "path":  "shaderpacks/photon_v1.3b.zip",
-                      "name":  "Photon â€” shader cinÃ©matique optionnel",
+                      "name":  "Photon Ã¢â‚¬â€ shader cinÃƒÂ©matique optionnel",
                       "url":  "https://cdn.modrinth.com/data/lLqFfGNs/versions/gUv7fBPN/photon_v1.3b.zip",
                       "algorithm":  "sha512",
                       "hash":  "40bcbac9c656f2965f543e4b35cd0698723b2db8b67662f1b53c14223cfbef7d60d7fbf0176f73fcadd0d1e19ba60d951ed77e9eece8c8df7dca4d2be6315309",
