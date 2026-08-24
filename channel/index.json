@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "gameplayVersion": "0.6.0",
+  "minimumLauncherVersion": "1.1.0",
+  "defaultVariant": "standard",
+  "fallbackVariant": "performance",
+  "benchmarkVersion": 1,
+  "features": {
+    "automaticHardwareSelection": true,
+    "manualVariantSelection": true,
+    "repair": true,
+    "benchmark": false
+  },
+  "thresholds": {
+    "standardMinimumAverageFps": 75,
+    "standardMinimumOnePercentLow": 60,
+    "performanceBelowAverageFps": 70,
+    "performanceBelowOnePercentLow": 55,
+    "maximumVramUsageRatio": 0.9
+  },
+  "variants": [
+    {
+      "id": "performance",
+      "displayName": "Nexus Performance",
+      "description": "Version fluide pour GTX 1650/1650 Ti/1050 Ti/1060 et cartes 4 Go.",
+      "icon": "⚡",
+      "recommendedFor": "1080p, GPU 4 Go ou modestes",
+      "targetFps": "Objectif 60 FPS ou plus selon la zone",
+      "minimumRamGb": 8,
+      "recommendedRamGb": 16,
+      "minimumVramGb": 2,
+      "recommendedVramGb": 4,
+      "manifestUrl": "https://raw.githubusercontent.com/ilyem974/nexus-vanillaplus/main/channel/variants/performance/manifest.json",
+      "manifestSignatureUrl": "https://raw.githubusercontent.com/ilyem974/nexus-vanillaplus/main/channel/variants/performance/manifest.sig",
+      "enabled": true,
+      "sortOrder": 10,
+      "client": {
+        "memoryMb": 6144,
+        "renderDistance": 8,
+        "simulationDistance": 5,
+        "graphicsMode": 0,
+        "entityDistance": 0.6,
+        "particles": 2,
+        "distantHorizonsRadius": 32,
+        "shadersEnabledByDefault": false,
+        "shaderPack": "MakeUp-UltraFast-9.5d.zip"
+      }
+    },
+    {
+      "id": "standard",
+      "displayName": "Nexus Standard",
+      "description": "Version visuelle complète pour les PC disposant d'une marge graphique suffisante.",
+      "icon": "🔥",
+      "recommendedFor": "GPU 6 Go ou plus, 16 Go de RAM ou plus",
+      "targetFps": "Qualité fluide, shaders optionnels",
+      "minimumRamGb": 12,
+      "recommendedRamGb": 16,
+      "minimumVramGb": 5,
+      "recommendedVramGb": 8,
+      "manifestUrl": "https://raw.githubusercontent.com/ilyem974/nexus-vanillaplus/main/channel/variants/standard/manifest.json",
+      "manifestSignatureUrl": "https://raw.githubusercontent.com/ilyem974/nexus-vanillaplus/main/channel/variants/standard/manifest.sig",
+      "enabled": true,
+      "sortOrder": 20,
+      "client": {
+        "memoryMb": 8192,
+        "renderDistance": 14,
+        "simulationDistance": 8,
+        "graphicsMode": 1,
+        "entityDistance": 0.85,
+        "particles": 1,
+        "distantHorizonsRadius": 96,
+        "shadersEnabledByDefault": false,
+        "shaderPack": "MakeUp-UltraFast-9.5d.zip"
+      }
+    }
+  ],
+  "hardwareRules": [
+    {
+      "gpuContains": [
+        "GTX 1650 TI"
+      ],
+      "variant": "performance",
+      "reason": "GTX 1650 Ti : profil Performance obligatoire en automatique"
+    },
+    {
+      "gpuContains": [
+        "GTX 1650",
+        "GTX 1050 TI",
+        "GTX 1050",
+        "GTX 1060"
+      ],
+      "variant": "performance",
+      "reason": "GPU GTX modeste pris en charge par Nexus Performance"
+    },
+    {
+      "gpuContains": [
+        "MX",
+        "IRIS XE",
+        "UHD GRAPHICS",
+        "VEGA 8"
+      ],
+      "variant": "performance",
+      "reason": "Circuit graphique léger : choix prudent"
+    },
+    {
+      "maximumVramGb": 4.5,
+      "variant": "performance",
+      "reason": "4 Go de mémoire vidéo ou moins"
+    },
+    {
+      "minimumVramGb": 6,
+      "minimumRamGb": 16,
+      "variant": "standard",
+      "reason": "Mémoire graphique et système suffisantes"
+    }
+  ]
+}

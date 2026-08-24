@@ -1,3 +1,3 @@
-channel/pack/manifest.json text eol=lf
-channel/pack/manifest.sig text eol=lf
-channel/pack/*.zip binary
+channel/**/*.json text eol=lf
+channel/**/*.sig text eol=lf
+channel/**/*.zip binary
