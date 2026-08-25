@@ -1461,6 +1461,15 @@
       "source": "Modrinth"
     },
     {
+      "path": "mods/NexusPerformanceGuard-1.0.0.jar",
+      "name": "Nexus Performance Guard — protection anti-freeze",
+      "url": "https://raw.githubusercontent.com/ilyem974/nexus-vanillaplus/main/channel/mods/NexusPerformanceGuard-1.0.0.jar",
+      "algorithm": "sha512",
+      "hash": "a8e2794d3a809fbd5ac4d19bed57f4f99be7a4211bca1be9ac4cbe39a5ca620cf26089899bcbe198593bd198047bfc0b6755a4398663ad51f411cfcf8213061f",
+      "size": 4407,
+      "source": "nexus-custom-client-mod"
+    },
+    {
       "path": "mods/NotEnoughBandwidth-0.3.18+prototype+teacon.jar",
       "name": "Not Enough Bandwidth",
       "url": "https://cdn.modrinth.com/data/c7sFoV9J/versions/tbBqTIJY/NotEnoughBandwidth-0.3.18%2Bprototype%2Bteacon.jar",
