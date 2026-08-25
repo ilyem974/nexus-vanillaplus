@@ -9,7 +9,7 @@
   "serverAddress": "irvine-upfront.tun.ply.gg",
   "gameplayVersion": "0.6.1",
   "variantId": "standard",
-  "minimumLauncherVersion": "1.1.1",
+  "minimumLauncherVersion": "1.1.0",
   "files": [
     {
       "path": "mods/AdvancementPlaques-1.21.1-neoforge-1.6.8.jar",
@@ -2210,9 +2210,9 @@
   ],
   "overrides": {
     "resource": "pack-overrides.zip",
-    "url": "https://raw.githubusercontent.com/ilyem974/nexus-vanillaplus/main/channel/variants/standard/pack-overrides-408ab351fb1f1120.zip",
+    "url": "https://raw.githubusercontent.com/ilyem974/nexus-vanillaplus/main/channel/variants/standard/pack-overrides-0e3a88be8d23fed8.zip",
     "algorithm": "sha512",
-    "hash": "408ab351fb1f112075b7d02b6b75361bbe05a44d77e5d6af1c3ca9a139d0776f4e77bea8e76b59c1baa2a9b2858e7c7560653559497259d2f2e5946d0a1d8f6a",
-    "size": 757779
+    "hash": "0e3a88be8d23fed82669a830cc62d87c10e9be9defb00167864b4a14f457148752f2170c22d75d586a237062e11e82d68e847232a2f8eceb3fcc620a726d544b",
+    "size": 762635
   }
 }
