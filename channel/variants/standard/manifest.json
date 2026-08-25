@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "name": "Nexus Vanilla+ 0.6.0 Standard",
-  "packVersion": "0.6.0",
+  "name": "Nexus Vanilla+ 0.6.1 Standard",
+  "packVersion": "0.6.1",
   "minecraftVersion": "1.21.1",
   "loader": "neoforge",
   "loaderVersion": "21.1.248",
   "instanceId": "Nexus-VanillaPlus",
   "serverAddress": "irvine-upfront.tun.ply.gg",
-  "gameplayVersion": "0.6.0",
+  "gameplayVersion": "0.6.1",
   "variantId": "standard",
-  "minimumLauncherVersion": "1.1.0",
+  "minimumLauncherVersion": "1.1.1",
   "files": [
     {
       "path": "mods/AdvancementPlaques-1.21.1-neoforge-1.6.8.jar",
@@ -1065,6 +1065,15 @@
       "source": "CurseForge"
     },
     {
+      "path": "mods/iceandfire_addon-1.1.1-neoforge-1.21.1.jar",
+      "name": "Ice And Fire Addon",
+      "url": "https://cdn.modrinth.com/data/Vf0JUkLp/versions/KcFTh6uw/iceandfire_addon-1.1.1-neoforge-1.21.1.jar",
+      "algorithm": "sha512",
+      "hash": "dd27422a52c79593fbb06181ae894c45660e05d54c98216ee105a22f710ca20fc2fe137e679c202e1581e1fa928f0ac38f7fa5994039d9bac8ec4a93a9bac689",
+      "size": 57157,
+      "source": "modrinth-dedicated-server-tested"
+    },
+    {
       "path": "mods/Iceberg-1.21.1-neoforge-1.3.2.jar",
       "name": "Iceberg",
       "url": "https://cdn.modrinth.com/data/5faXoLqX/versions/IMssx9du/Iceberg-1.21.1-neoforge-1.3.2.jar",
@@ -1504,6 +1513,15 @@
       "hash": "d0acfaa6ef394fc7d9e677022bda06a6c8be7851ba8860897999775b657b5e10878578fe626505b0c9dbc01d26f559dbb1214aabb081d076824648047094e2e1",
       "size": 46623,
       "source": "Modrinth"
+    },
+    {
+      "path": "mods/particlerain-4.0.0-beta.10+1.21.1-neoforge.jar",
+      "name": "Particle Rain — intempéries visuelles optimisées",
+      "url": "https://cdn.modrinth.com/data/nrikgvxm/versions/CJeVXIae/particlerain-4.0.0-beta.10%2B1.21.1-neoforge.jar",
+      "algorithm": "sha512",
+      "hash": "9bff41758d0a63621512a3ce4d9c8f2e5a16937ac1ccac766f24d2baaded2a0475a0478a61062ebc861414443826480235a6f5c7cfe14f4ee26bd057188ff5b0",
+      "size": 605458,
+      "source": "modrinth-client-standard-only"
     },
     {
       "path": "mods/Patchouli-1.21.1-93-NEOFORGE.jar",
@@ -2192,9 +2210,9 @@
   ],
   "overrides": {
     "resource": "pack-overrides.zip",
-    "url": "https://raw.githubusercontent.com/ilyem974/nexus-vanillaplus/main/channel/variants/standard/pack-overrides-b4caf10e6abd2093.zip",
+    "url": "https://raw.githubusercontent.com/ilyem974/nexus-vanillaplus/main/channel/variants/standard/pack-overrides-408ab351fb1f1120.zip",
     "algorithm": "sha512",
-    "hash": "b4caf10e6abd2093b1ee07b7218dcca86f7232f6e43a9206d071cdf660912d5dabba16788bc993e8b5ac328412b5ab42acfa6c2d7e19ec59f867581080dc2dd9",
-    "size": 756395
+    "hash": "408ab351fb1f112075b7d02b6b75361bbe05a44d77e5d6af1c3ca9a139d0776f4e77bea8e76b59c1baa2a9b2858e7c7560653559497259d2f2e5946d0a1d8f6a",
+    "size": 757779
   }
 }

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "gameplayVersion": "0.6.0",
-  "minimumLauncherVersion": "1.1.0",
+  "gameplayVersion": "0.6.1",
+  "minimumLauncherVersion": "1.1.1",
   "defaultVariant": "standard",
   "fallbackVariant": "performance",
   "benchmarkVersion": 1,

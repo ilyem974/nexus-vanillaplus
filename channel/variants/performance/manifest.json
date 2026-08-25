@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "name": "Nexus Vanilla+ 0.6.0 Performance",
-  "packVersion": "0.6.0",
+  "name": "Nexus Vanilla+ 0.6.1 Performance",
+  "packVersion": "0.6.1",
   "minecraftVersion": "1.21.1",
   "loader": "neoforge",
   "loaderVersion": "21.1.248",
   "instanceId": "Nexus-VanillaPlus",
   "serverAddress": "irvine-upfront.tun.ply.gg",
-  "gameplayVersion": "0.6.0",
+  "gameplayVersion": "0.6.1",
   "variantId": "performance",
-  "minimumLauncherVersion": "1.1.0",
+  "minimumLauncherVersion": "1.1.1",
   "files": [
     {
       "path": "mods/AdvancementPlaques-1.21.1-neoforge-1.6.8.jar",
@@ -1054,6 +1054,15 @@
       "hash": "e15285362f241598394203715127fe4c09b81552b8c955a2f3e20b619710b93ec1a31f6998db5cd01077757785fc0bc70ec9a03b34eeb3b41aea3367fc60e59d",
       "size": 20773747,
       "source": "CurseForge"
+    },
+    {
+      "path": "mods/iceandfire_addon-1.1.1-neoforge-1.21.1.jar",
+      "name": "Ice And Fire Addon",
+      "url": "https://cdn.modrinth.com/data/Vf0JUkLp/versions/KcFTh6uw/iceandfire_addon-1.1.1-neoforge-1.21.1.jar",
+      "algorithm": "sha512",
+      "hash": "dd27422a52c79593fbb06181ae894c45660e05d54c98216ee105a22f710ca20fc2fe137e679c202e1581e1fa928f0ac38f7fa5994039d9bac8ec4a93a9bac689",
+      "size": 57157,
+      "source": "modrinth-dedicated-server-tested"
     },
     {
       "path": "mods/Iceberg-1.21.1-neoforge-1.3.2.jar",
@@ -2174,9 +2183,9 @@
   ],
   "overrides": {
     "resource": "pack-overrides.zip",
-    "url": "https://raw.githubusercontent.com/ilyem974/nexus-vanillaplus/main/channel/variants/performance/pack-overrides-eb163665e495782f.zip",
+    "url": "https://raw.githubusercontent.com/ilyem974/nexus-vanillaplus/main/channel/variants/performance/pack-overrides-ab396df71cb3f5e0.zip",
     "algorithm": "sha512",
-    "hash": "eb163665e495782fba90ebd918f8593b20e44e12801abca08d457c7fbb9da5f919101372b7fc6e0fddb85c21ccf1b9a99405446248172c6c5bd1594ed0548143",
-    "size": 745893
+    "hash": "ab396df71cb3f5e0ac043626ff8cbc17b441dbc1a6c3b2e0d1406711f6190dd4243adc82f2602e2c6feac1b31d9ec9b2bece2323cbbcafd2519aa8859080132c",
+    "size": 746579
   }
 }
