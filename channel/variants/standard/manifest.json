@@ -106,7 +106,6 @@
     "mods/ends_delight-2.6.1+neoforge.1.21.1.jar",
     "mods/entityculling-neoforge-1.10.5-mc1.21.1.jar",
     "mods/environmental-1.21.1-5.0.1.jar",
-    "mods/EuphoriaPatcher-1.9.3-r5.8.1-neoforge.jar",
     "mods/ExplorersCompass-1.21.1-3.4.0-neoforge.jar",
     "mods/exposure-neoforge-1.21.1-1.9.18.jar",
     "mods/FarmersDelight-1.21.1-1.3.3.jar",
@@ -257,9 +256,7 @@
     "mods/zipline-neoforge-1.21.1-1.5.0.jar",
     "resourcepacks/Better Armors.zip",
     "resourcepacks/True Dovah.zip",
-    "shaderpacks/ComplementaryUnbound_r5.8.1.zip",
-    "shaderpacks/MakeUp-UltraFast-9.5d.zip",
-    "shaderpacks/photon_v1.3b.zip"
+    "shaderpacks/ComplementaryUnbound_r5.8.1.zip"
   ],
   "requiredServerFiles": [],
   "configFiles": [
@@ -431,7 +428,6 @@
     "config/ends_delight-common.toml",
     "config/environmental-common.toml",
     "config/epicfight-client.toml",
-    "config/euphoria_patcher/settings.toml",
     "config/everycomp-common.toml",
     "config/everycomp-entries-1.toml.bak",
     "config/everycomp-entries.toml",
@@ -501,9 +497,6 @@
     "config/piglinproliferation-common.toml",
     "config/placebo.cfg",
     "config/playerrevive.json",
-    "config/punchy/merged_animation_selection.json",
-    "config/punchy/punchy_config.json",
-    "config/punchy/punchy_tuning.json",
     "config/quark-common.toml",
     "config/railways-common.toml",
     "config/railways-server-1.toml.bak",
@@ -922,9 +915,7 @@
     "nexus/QUESTS.md",
     "nexus/SPAWN-CREDITS.md",
     "nexus/THIRD_PARTY_LICENSES.md",
-    "servers.dat",
-    "shaderpacks/ComplementaryUnbound_r5.8.1 + EuphoriaPatches_1.9.3.txt",
-    "shaderpacks/ComplementaryUnbound_r5.8.1.zip.txt"
+    "servers.dat"
   ],
   "minimumLauncherVersion": "1.2.0",
   "files": [
@@ -1746,15 +1737,6 @@
       "hash": "49916902409b58fd2866d5a142259a2e49b2d6199292e8c91df3f7b8aeaf51326a731a04c1e7330295409f32a1410d917ff6c34dc1d759e40a78ca8d05dfcfa3",
       "size": 7834244,
       "source": "Modrinth"
-    },
-    {
-      "path": "mods/EuphoriaPatcher-1.9.3-r5.8.1-neoforge.jar",
-      "name": "Euphoria Patches 1.9.3",
-      "url": "https://cdn.modrinth.com/data/4H6sumDB/versions/9Q9EA4jQ/EuphoriaPatcher-1.9.3-r5.8.1-neoforge.jar",
-      "algorithm": "sha512",
-      "hash": "bdf105e505c9e6ae85d8df63ec47cdba59adac6727ef32d15aa13ed0ce3881e3d1fe076cf86c791b6af7ac90d00ed0246809d3a09b2cb13794699beb276d5ec1",
-      "size": 4210708,
-      "source": "modrinth"
     },
     {
       "path": "mods/ExplorersCompass-1.21.1-3.4.0-neoforge.jar",
@@ -3114,31 +3096,13 @@
       "hash": "9098dd9e0c18b80f7aba2839cea33ce9a614d97665bbfcac87ccce6e4771667c41602d99088852cb1642ccab20b2ceff9b98af8f2e795bd0d3b90b7c9cbab914",
       "size": 546928,
       "source": "modrinth"
-    },
-    {
-      "path": "shaderpacks/MakeUp-UltraFast-9.5d.zip",
-      "name": "MakeUp Ultra Fast — shader rapide optionnel",
-      "url": "https://cdn.modrinth.com/data/izsIPI7a/versions/4hOlA9Ej/MakeUp-UltraFast-9.5d.zip",
-      "algorithm": "sha512",
-      "hash": "729fe96ae6cbb8ee49204c9e780a42aa5cd6365d18d19eda7eafaf2f4e7dffcf4c514e3a466722f72d1e10ed65a1c6e38ca55deeb81e342b9245ae98eab85fc9",
-      "size": 400386,
-      "source": "Modrinth"
-    },
-    {
-      "path": "shaderpacks/photon_v1.3b.zip",
-      "name": "Photon — shader cinématique optionnel",
-      "url": "https://cdn.modrinth.com/data/lLqFfGNs/versions/gUv7fBPN/photon_v1.3b.zip",
-      "algorithm": "sha512",
-      "hash": "40bcbac9c656f2965f543e4b35cd0698723b2db8b67662f1b53c14223cfbef7d60d7fbf0176f73fcadd0d1e19ba60d951ed77e9eece8c8df7dca4d2be6315309",
-      "size": 3800987,
-      "source": "Modrinth"
     }
   ],
   "overrides": {
     "resource": "pack-overrides.zip",
-    "url": "https://raw.githubusercontent.com/ilyem974/nexus-vanillaplus/main/channel/variants/standard/pack-overrides-7b0d06365a6367e3.zip",
+    "url": "https://raw.githubusercontent.com/ilyem974/nexus-vanillaplus/main/channel/variants/standard/pack-overrides-0a75e33cb33642fc.zip",
     "algorithm": "sha512",
-    "hash": "7b0d06365a6367e3d76e98757af9b02dc2fa7fc6e5d440acee4af2f707ee1c9045870d4ae4b69bc5c1c82635d9c36bf2178caad3fd9066c3c4931f74dd161db9",
-    "size": 770702
+    "hash": "0a75e33cb33642fc0264fcd84883517425bf020f15a7d1f58597f8e0290f8f860fa2c92ae6c249ab4f48a8327ac18784f832153000c4f62151a7c082584a2b3e",
+    "size": 767501
   }
 }

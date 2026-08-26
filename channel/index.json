@@ -44,16 +44,7 @@
         "particles": 2,
         "distantHorizonsRadius": 32,
         "shadersEnabledByDefault": false,
-        "shaderPack": "ComplementaryUnbound_r5.8.1.zip",
-        "resourcePacks": [
-          "vanilla",
-          "mod_resources",
-          "file/Better Armors.zip",
-          "file/True Dovah.zip"
-        ],
-        "incompatibleResourcePacks": [
-          "file/True Dovah.zip"
-        ]
+        "shaderPack": ""
       }
     },
     {
@@ -62,7 +53,7 @@
       "description": "Version visuelle complète pour les PC disposant d'une marge graphique suffisante.",
       "icon": "🔥",
       "recommendedFor": "GPU 6 Go ou plus, 16 Go de RAM ou plus",
-      "targetFps": "Qualité fluide, shaders optionnels",
+      "targetFps": "Qualité fluide, shader optionnel désactivé",
       "minimumRamGb": 12,
       "recommendedRamGb": 16,
       "minimumVramGb": 5,
@@ -81,62 +72,7 @@
         "particles": 1,
         "distantHorizonsRadius": 96,
         "shadersEnabledByDefault": false,
-        "shaderPack": "ComplementaryUnbound_r5.8.1.zip",
-        "resourcePacks": [
-          "vanilla",
-          "mod_resources",
-          "file/Better Armors.zip",
-          "file/True Dovah.zip"
-        ],
-        "incompatibleResourcePacks": [
-          "file/True Dovah.zip"
-        ]
-      }
-    },
-    {
-      "id": "ultra",
-      "displayName": "Nexus Ultra — 12 Go",
-      "description": "Qualité maximale : Complementary Unbound, Euphoria, animations et textures 3D.",
-      "icon": "✨",
-      "recommendedFor": "PC puissants, GPU 8 Go et 24 Go de RAM ou plus",
-      "targetFps": "Qualité cinématique, stabilité prioritaire",
-      "minimumRamGb": 16,
-      "recommendedRamGb": 32,
-      "minimumVramGb": 6,
-      "recommendedVramGb": 8,
-      "manifestUrl": "https://raw.githubusercontent.com/ilyem974/nexus-vanillaplus/main/channel/variants/ultra/manifest.json",
-      "manifestSignatureUrl": "https://raw.githubusercontent.com/ilyem974/nexus-vanillaplus/main/channel/variants/ultra/manifest.sig",
-      "enabled": true,
-      "sortOrder": 30,
-      "client": {
-        "memoryMb": 12288,
-        "minimumMemoryMb": 4096,
-        "renderDistance": 16,
-        "simulationDistance": 8,
-        "graphicsMode": 1,
-        "entityDistance": 1.0,
-        "particles": 0,
-        "distantHorizonsRadius": 128,
-        "shadersEnabledByDefault": true,
-        "shaderPack": "ComplementaryUnbound_r5.8.1 + EuphoriaPatches_1.9.3",
-        "resourcePacks": [
-          "vanilla",
-          "mod_resources",
-          "file/Better Armors.zip",
-          "file/True Dovah.zip",
-          "file/Better Leaves.zip",
-          "file/Better Ores 3D.zip",
-          "file/Fancy Crops.zip",
-          "file/Fresh Flower Pots.zip",
-          "file/p1kls 3D Items.zip",
-          "file/Animated Totem.zip",
-          "file/Enchantment Outlines.zip",
-          "file/KonciPET UI 2.2.zip",
-          "file/Animated Hotbar RGB.zip"
-        ],
-        "incompatibleResourcePacks": [
-          "file/True Dovah.zip"
-        ]
+        "shaderPack": "ComplementaryUnbound_r5.8.1.zip"
       }
     }
   ],
