@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "name": "Nexus Vanilla+ 1.0.1 Performance",
-  "packVersion": "1.0.1",
+  "name": "Nexus Vanilla+ 1.0.2 Performance",
+  "packVersion": "1.0.2",
   "minecraftVersion": "1.21.1",
   "loader": "neoforge",
   "loaderVersion": "21.1.248",
   "instanceId": "Nexus-VanillaPlus",
   "serverAddress": "irvine-upfront.tun.ply.gg",
-  "gameplayVersion": "1.0.1",
+  "gameplayVersion": "1.0.2",
   "variantId": "performance",
   "profileId": "performance",
   "profileName": "Nexus Vanilla+ Performance",
@@ -85,6 +85,7 @@
     "mods/cristellib-neoforge-1.21.1-3.1.7.jar",
     "mods/crittersandcompanions-neoforge-1.21.1-2.7.0.jar",
     "mods/culturaldelights-0.17.8.jar",
+    "mods/cupboard-1.21.1-3.9.jar",
     "mods/curios-neoforge-9.5.1+1.21.1.jar",
     "mods/deeperdarker-neoforge-1.21.1-1.4.1.jar",
     "mods/Design-n-Decor-1.21.1-2.1.0.jar",
@@ -94,6 +95,7 @@
     "mods/DnDesires-1.21.1-2.3a-BETA.jar",
     "mods/DoggyTalentsNext-1.21.1-1.19.0.jar",
     "mods/Dragon Mounts Remastered-1.21.1-1.9.2.jar",
+    "mods/dragonfight-1.21-4.7.jar",
     "mods/dragonlib-neoforge-1.21.1-beta-3.0.28.jar",
     "mods/dynamic-fps-3.11.4+minecraft-1.21.0-neoforge.jar",
     "mods/EasyAnvils-v21.1.0-1.21.1-NeoForge.jar",
@@ -180,6 +182,7 @@
     "mods/oracle_index-neoforge-1.3.1.jar",
     "mods/owo-lib-neoforge-0.12.15.5-beta.1+1.21.jar",
     "mods/packetfixer-3.3.1-1.20.5-1.21.X-merged.jar",
+    "mods/particlerain-4.0.0-beta.10+1.21.1-neoforge.jar",
     "mods/Patchouli-1.21.1-93-NEOFORGE.jar",
     "mods/piglinproliferation-1.21.1-2.0.15.jar",
     "mods/Placebo-1.21.1-9.9.2.jar",
@@ -253,7 +256,8 @@
     "mods/zfastnoise-1.0.13+1.21.1+neoforge.jar",
     "mods/zipline-neoforge-1.21.1-1.5.0.jar",
     "resourcepacks/Better Armors.zip",
-    "resourcepacks/True Dovah.zip"
+    "resourcepacks/True Dovah.zip",
+    "shaderpacks/ComplementaryUnbound_r5.8.1.zip"
   ],
   "requiredServerFiles": [],
   "configFiles": [
@@ -906,7 +910,7 @@
     "kubejs/data/railways/loot_table/blocks/track_twilightforest_twilight_oak_wide.json",
     "kubejs/server_scripts/main.js",
     "kubejs/startup_scripts/main.js",
-    "mods/nexus_core-1.0.1.jar",
+    "mods/nexus_core-1.0.2.jar",
     "nexus/ECONOMIE.md",
     "nexus/JOUER.md",
     "nexus/QUESTS.md",
@@ -1547,6 +1551,15 @@
       "source": "Modrinth"
     },
     {
+      "path": "mods/cupboard-1.21.1-3.9.jar",
+      "name": "Cupboard 3.9 — dépendance Savage Ender Dragon",
+      "url": "https://mediafilez.forgecdn.net/files/8481/114/cupboard-1.21.1-3.9.jar",
+      "algorithm": "sha512",
+      "hash": "c2501b3830aaf1a3066f4c7fb12d9b229cc54f56f1d7dbf1593a5e7a979d0a1cce25ac7dd595ee1eb45bcdf34cae30eb3302a2b63e130c1efb28a420e0130240",
+      "size": 28829,
+      "source": "curseforge-client-server"
+    },
+    {
       "path": "mods/curios-neoforge-9.5.1+1.21.1.jar",
       "name": "Curios API",
       "url": "https://cdn.modrinth.com/data/vvuO3ImH/versions/yohfFbgD/curios-neoforge-9.5.1%2B1.21.1.jar",
@@ -1626,6 +1639,15 @@
       "hash": "90bd999d0378d24312a13bc0f44c45f9d756c5637684ddde688f0ba5ee5724f654eca11c19098c0b61b83374b88f9804283d10a3a38a5e36bfc91540f6b5c079",
       "size": 1308509,
       "source": "CurseForge"
+    },
+    {
+      "path": "mods/dragonfight-1.21-4.7.jar",
+      "name": "Savage Ender Dragon 4.7 — combat de l'End refait",
+      "url": "https://mediafilez.forgecdn.net/files/6828/602/dragonfight-1.21-4.7.jar",
+      "algorithm": "sha512",
+      "hash": "216ead02d5da60f522aa3bf7da591ce6d9e85d21f644c7846ac59afa3f87be7fce8c3e923c8ccb21c31a509251afb6cc2485878f2b5cdf41b932d1ecd26fdd3a",
+      "size": 35942,
+      "source": "curseforge-client-server"
     },
     {
       "path": "mods/dragonlib-neoforge-1.21.1-beta-3.0.28.jar",
@@ -2402,6 +2424,15 @@
       "source": "Modrinth"
     },
     {
+      "path": "mods/particlerain-4.0.0-beta.10+1.21.1-neoforge.jar",
+      "name": "Particle Rain — intempéries visuelles optimisées",
+      "url": "https://cdn.modrinth.com/data/nrikgvxm/versions/CJeVXIae/particlerain-4.0.0-beta.10%2B1.21.1-neoforge.jar",
+      "algorithm": "sha512",
+      "hash": "9bff41758d0a63621512a3ce4d9c8f2e5a16937ac1ccac766f24d2baaded2a0475a0478a61062ebc861414443826480235a6f5c7cfe14f4ee26bd057188ff5b0",
+      "size": 605458,
+      "source": "modrinth-client-standard-only"
+    },
+    {
       "path": "mods/Patchouli-1.21.1-93-NEOFORGE.jar",
       "name": "Patchouli",
       "url": "https://cdn.modrinth.com/data/nU0bVIaL/versions/BIogJv2D/Patchouli-1.21.1-93-NEOFORGE.jar",
@@ -3066,13 +3097,22 @@
       "hash": "fa5e8cbcc5be8545884407ee36be200934230bc843f7231cef65ed6b7b445648f890a9890d00840c69940827ff9747fe3622a0827de6516cc5b71da30bf2ae09",
       "size": 7012423,
       "source": "Modrinth"
+    },
+    {
+      "path": "shaderpacks/ComplementaryUnbound_r5.8.1.zip",
+      "name": "Complementary Unbound r5.8.1",
+      "url": "https://cdn.modrinth.com/data/R6NEzAwj/versions/VMHXIk50/ComplementaryUnbound_r5.8.1.zip",
+      "algorithm": "sha512",
+      "hash": "9098dd9e0c18b80f7aba2839cea33ce9a614d97665bbfcac87ccce6e4771667c41602d99088852cb1642ccab20b2ceff9b98af8f2e795bd0d3b90b7c9cbab914",
+      "size": 546928,
+      "source": "modrinth"
     }
   ],
   "overrides": {
     "resource": "pack-overrides.zip",
-    "url": "https://raw.githubusercontent.com/ilyem974/nexus-vanillaplus/main/channel/variants/performance/pack-overrides-710cc0fa25f09b4f.zip",
+    "url": "https://raw.githubusercontent.com/ilyem974/nexus-vanillaplus/main/channel/variants/performance/pack-overrides-4fe9986593d65285.zip",
     "algorithm": "sha512",
-    "hash": "710cc0fa25f09b4f430c4016f0a0fa691b77a76fcdc0424e0f20594a190489526c06f307bdb05cca3cb7ace456386e823003a09a5837482e5bbd58871d1de124",
-    "size": 755513
+    "hash": "4fe9986593d65285917db949d65188f02c1e6a5441a6b8c1e0dba015e394ff709303416bcbfaf46eac142ea0d1a1add57998bebb27ced69af1b3f0d4c9e29192",
+    "size": 757222
   }
 }
