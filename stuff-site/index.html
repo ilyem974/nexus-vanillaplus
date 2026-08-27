@@ -127,6 +127,11 @@ line-height:1.6
 </div>
 
 <div>
+<label>Vie du joueur (cœurs)</label>
+<input id="hearts" type="number" value="10" min="0.5" step="0.5">
+</div>
+
+<div>
 <label>Enchantements</label>
 <select id="enchant">
 <option value="0">Aucun</option>
@@ -257,6 +262,7 @@ function render(){
 
 const dmg=Number(document.getElementById("damage").value)||1;
 const enchant=Number(document.getElementById("enchant").value);
+const startHearts=Number(document.getElementById("hearts").value)||10;
 const filter=document.getElementById("filter").value;
 
 let results=sets
@@ -265,10 +271,19 @@ let results=sets
 
 const red=totalReduction(s,dmg,enchant);
 
+const received=dmg*(1-red);
+
+const heartsLost=received/2;
+const heartsRemaining=Math.max(0,startHearts-heartsLost);
+const dead=heartsRemaining<=0;
+
 return{
 ...s,
 red,
-received:dmg*(1-red)
+received,
+heartsLost,
+heartsRemaining,
+dead
 };
 
 })
@@ -321,6 +336,37 @@ ${(s.red*100).toFixed(1)}%
 <span>Knockback Resistance</span>
 </div>
 
+<div class="stat">
+<b style="color:#ff8c98">${s.heartsLost.toFixed(2)} ❤</b>
+<span>Cœurs perdus</span>
+</div>
+
+<div class="stat">
+<b style="color:${s.dead ? "#ff4655" : "#79f3ae"}">
+${s.heartsRemaining.toFixed(2)} ❤
+</b>
+<span>Cœurs restants</span>
+</div>
+
+<div class="stat" style="grid-column:1/-1;text-align:center">
+<b style="
+font-size:22px;
+color:${s.dead ? "#ff4655" : s.heartsRemaining<=1 ? "#ffd479" : "#79f3ae"}
+">
+${s.dead
+? "☠ MORT — 0 CŒUR"
+: s.heartsRemaining<=1
+? "⚠ VIVANT — 1 CŒUR"
+: "❤ VIVANT"}
+</b>
+
+<span>
+${s.dead
+? "Cette attaque te tue."
+: "Tu survis à cette attaque."}
+</span>
+</div>
+
 </div>
 
 <p>${s.note}</p>
@@ -332,6 +378,7 @@ ${(s.red*100).toFixed(1)}%
 }
 
 document.getElementById("damage").addEventListener("input",render);
+document.getElementById("hearts").addEventListener("input",render);
 document.getElementById("enchant").addEventListener("change",render);
 document.getElementById("filter").addEventListener("change",render);
 
@@ -341,3 +388,4 @@ render();
 
 </body>
 </html>
+
