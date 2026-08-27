@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "name": "Nexus Vanilla+ 1.0.1 Standard",
-  "packVersion": "1.0.1",
+  "name": "Nexus Vanilla+ 1.0.3 Standard",
+  "packVersion": "1.0.3",
   "minecraftVersion": "1.21.1",
   "loader": "neoforge",
   "loaderVersion": "21.1.248",
   "instanceId": "Nexus-VanillaPlus",
   "serverAddress": "irvine-upfront.tun.ply.gg",
-  "gameplayVersion": "1.0.1",
+  "gameplayVersion": "1.0.3",
   "variantId": "standard",
   "profileId": "standard",
   "profileName": "Nexus Vanilla+ Standard",
@@ -85,6 +85,7 @@
     "mods/cristellib-neoforge-1.21.1-3.1.7.jar",
     "mods/crittersandcompanions-neoforge-1.21.1-2.7.0.jar",
     "mods/culturaldelights-0.17.8.jar",
+    "mods/cupboard-1.21.1-3.9.jar",
     "mods/curios-neoforge-9.5.1+1.21.1.jar",
     "mods/deeperdarker-neoforge-1.21.1-1.4.1.jar",
     "mods/Design-n-Decor-1.21.1-2.1.0.jar",
@@ -95,6 +96,7 @@
     "mods/DnDesires-1.21.1-2.3a-BETA.jar",
     "mods/DoggyTalentsNext-1.21.1-1.19.0.jar",
     "mods/Dragon Mounts Remastered-1.21.1-1.9.2.jar",
+    "mods/dragonfight-1.21-4.7.jar",
     "mods/dragonlib-neoforge-1.21.1-beta-3.0.28.jar",
     "mods/dynamic-fps-3.11.4+minecraft-1.21.0-neoforge.jar",
     "mods/EasyAnvils-v21.1.0-1.21.1-NeoForge.jar",
@@ -256,7 +258,8 @@
     "mods/zipline-neoforge-1.21.1-1.5.0.jar",
     "resourcepacks/Better Armors.zip",
     "resourcepacks/True Dovah.zip",
-    "shaderpacks/ComplementaryUnbound_r5.8.1.zip"
+    "shaderpacks/ComplementaryUnbound_r5.8.1.zip",
+    "mods/nexus_instinct-1.0.0.jar"
   ],
   "requiredServerFiles": [],
   "configFiles": [
@@ -909,7 +912,7 @@
     "kubejs/data/railways/loot_table/blocks/track_twilightforest_twilight_oak_wide.json",
     "kubejs/server_scripts/main.js",
     "kubejs/startup_scripts/main.js",
-    "mods/nexus_core-1.0.1.jar",
+    "mods/nexus_core-1.0.2.jar",
     "nexus/ECONOMIE.md",
     "nexus/JOUER.md",
     "nexus/QUESTS.md",
@@ -1550,6 +1553,15 @@
       "source": "Modrinth"
     },
     {
+      "path": "mods/cupboard-1.21.1-3.9.jar",
+      "name": "Cupboard 3.9 — dépendance Savage Ender Dragon",
+      "url": "https://mediafilez.forgecdn.net/files/8481/114/cupboard-1.21.1-3.9.jar",
+      "algorithm": "sha512",
+      "hash": "c2501b3830aaf1a3066f4c7fb12d9b229cc54f56f1d7dbf1593a5e7a979d0a1cce25ac7dd595ee1eb45bcdf34cae30eb3302a2b63e130c1efb28a420e0130240",
+      "size": 28829,
+      "source": "curseforge-client-server"
+    },
+    {
       "path": "mods/curios-neoforge-9.5.1+1.21.1.jar",
       "name": "Curios API",
       "url": "https://cdn.modrinth.com/data/vvuO3ImH/versions/yohfFbgD/curios-neoforge-9.5.1%2B1.21.1.jar",
@@ -1638,6 +1650,15 @@
       "hash": "90bd999d0378d24312a13bc0f44c45f9d756c5637684ddde688f0ba5ee5724f654eca11c19098c0b61b83374b88f9804283d10a3a38a5e36bfc91540f6b5c079",
       "size": 1308509,
       "source": "CurseForge"
+    },
+    {
+      "path": "mods/dragonfight-1.21-4.7.jar",
+      "name": "Savage Ender Dragon 4.7 — combat de l'End refait",
+      "url": "https://mediafilez.forgecdn.net/files/6828/602/dragonfight-1.21-4.7.jar",
+      "algorithm": "sha512",
+      "hash": "216ead02d5da60f522aa3bf7da591ce6d9e85d21f644c7846ac59afa3f87be7fce8c3e923c8ccb21c31a509251afb6cc2485878f2b5cdf41b932d1ecd26fdd3a",
+      "size": 35942,
+      "source": "curseforge-client-server"
     },
     {
       "path": "mods/dragonlib-neoforge-1.21.1-beta-3.0.28.jar",
@@ -3096,13 +3117,22 @@
       "hash": "9098dd9e0c18b80f7aba2839cea33ce9a614d97665bbfcac87ccce6e4771667c41602d99088852cb1642ccab20b2ceff9b98af8f2e795bd0d3b90b7c9cbab914",
       "size": 546928,
       "source": "modrinth"
+    },
+    {
+      "path": "mods/nexus_instinct-1.0.0.jar",
+      "name": "Nexus Instinct",
+      "url": "https://raw.githubusercontent.com/ilyem974/nexus-vanillaplus/main/channel/mods/nexus_instinct-1.0.0.jar",
+      "algorithm": "sha512",
+      "hash": "340ff617eda9c8e69966a387dbe850e658fff153f086408b526f6a321e4532288ccd6de5e8971696304169409c1b90c88613b3f2c91800ab617a1505dbb6cc1e",
+      "size": 23468,
+      "source": "Nexus"
     }
   ],
   "overrides": {
     "resource": "pack-overrides.zip",
-    "url": "https://raw.githubusercontent.com/ilyem974/nexus-vanillaplus/main/channel/pack/pack-overrides-0a75e33cb33642fc.zip",
+    "url": "https://raw.githubusercontent.com/ilyem974/nexus-vanillaplus/main/channel/variants/standard/pack-overrides-664a61eec6a0b097.zip",
     "algorithm": "sha512",
-    "hash": "0a75e33cb33642fc0264fcd84883517425bf020f15a7d1f58597f8e0290f8f860fa2c92ae6c249ab4f48a8327ac18784f832153000c4f62151a7c082584a2b3e",
-    "size": 767501
+    "hash": "664a61eec6a0b097e082fe7a5e5c802f135fdcb7b2048d5f60ebd05879b3e183f770e25229b4dc92aaff29dbfdefa60cc89a58a3720c158e6af3b17bc47a1b7f",
+    "size": 769210
   }
 }

@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "name": "Nexus Vanilla+ 1.0.2 Performance",
-  "packVersion": "1.0.2",
+  "name": "Nexus Vanilla+ 1.0.3 Performance",
+  "packVersion": "1.0.3",
   "minecraftVersion": "1.21.1",
   "loader": "neoforge",
   "loaderVersion": "21.1.248",
   "instanceId": "Nexus-VanillaPlus",
   "serverAddress": "irvine-upfront.tun.ply.gg",
-  "gameplayVersion": "1.0.2",
+  "gameplayVersion": "1.0.3",
   "variantId": "performance",
   "profileId": "performance",
   "profileName": "Nexus Vanilla+ Performance",
@@ -257,7 +257,8 @@
     "mods/zipline-neoforge-1.21.1-1.5.0.jar",
     "resourcepacks/Better Armors.zip",
     "resourcepacks/True Dovah.zip",
-    "shaderpacks/ComplementaryUnbound_r5.8.1.zip"
+    "shaderpacks/ComplementaryUnbound_r5.8.1.zip",
+    "mods/nexus_instinct-1.0.0.jar"
   ],
   "requiredServerFiles": [],
   "configFiles": [
@@ -3106,6 +3107,15 @@
       "hash": "9098dd9e0c18b80f7aba2839cea33ce9a614d97665bbfcac87ccce6e4771667c41602d99088852cb1642ccab20b2ceff9b98af8f2e795bd0d3b90b7c9cbab914",
       "size": 546928,
       "source": "modrinth"
+    },
+    {
+      "path": "mods/nexus_instinct-1.0.0.jar",
+      "name": "Nexus Instinct",
+      "url": "https://raw.githubusercontent.com/ilyem974/nexus-vanillaplus/main/channel/mods/nexus_instinct-1.0.0.jar",
+      "algorithm": "sha512",
+      "hash": "340ff617eda9c8e69966a387dbe850e658fff153f086408b526f6a321e4532288ccd6de5e8971696304169409c1b90c88613b3f2c91800ab617a1505dbb6cc1e",
+      "size": 23468,
+      "source": "Nexus"
     }
   ],
   "overrides": {
