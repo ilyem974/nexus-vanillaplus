@@ -1,0 +1,343 @@
+﻿<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Nexus Build Lab</title>
+
+<style>
+*{box-sizing:border-box}
+body{
+margin:0;
+font-family:Segoe UI,Arial,sans-serif;
+background:#070a0f;
+color:#f2f6ff
+}
+header{
+padding:40px 20px;
+text-align:center;
+background:linear-gradient(135deg,#101b2e,#07101a);
+border-bottom:1px solid #26334a
+}
+h1{font-size:48px;margin:0}
+header p{color:#9fb0c9}
+main{max-width:1200px;margin:auto;padding:25px}
+
+.controls{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:15px;
+background:#101722;
+padding:20px;
+border:1px solid #26334a;
+border-radius:15px
+}
+
+label{font-size:13px;color:#9fb0c9}
+input,select{
+width:100%;
+margin-top:5px;
+padding:11px;
+background:#080d14;
+color:white;
+border:1px solid #33415a;
+border-radius:8px
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:15px;
+margin-top:25px
+}
+
+.card{
+background:#101722;
+border:1px solid #26334a;
+border-radius:15px;
+padding:18px
+}
+
+.card h2{margin:5px 0}
+.mod{color:#68d6ff;font-size:13px}
+.rank{
+font-size:30px;
+font-weight:bold;
+float:right;
+color:#64748b
+}
+
+.big{
+font-size:34px;
+font-weight:bold;
+margin:15px 0
+}
+
+.stats{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:8px
+}
+
+.stat{
+padding:10px;
+background:#080d14;
+border-radius:8px
+}
+
+.stat span{
+display:block;
+font-size:11px;
+color:#8fa0b9
+}
+
+.good{color:#79f3ae}
+.warning{color:#ffd479}
+
+.info{
+margin-top:25px;
+padding:18px;
+background:#0d1520;
+border-left:4px solid #68d6ff;
+border-radius:10px;
+line-height:1.6
+}
+
+@media(max-width:800px){
+.grid{grid-template-columns:1fr}
+.controls{grid-template-columns:1fr}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>NEXUS BUILD LAB</h1>
+<p>Optimiseur de stuff — Nexus Vanilla+ 1.0.3</p>
+</header>
+
+<main>
+
+<div class="controls">
+
+<div>
+<label>Dégâts du coup</label>
+<input id="damage" type="number" value="20" min="1">
+</div>
+
+<div>
+<label>Enchantements</label>
+<select id="enchant">
+<option value="0">Aucun</option>
+<option value=".64" selected>Protection IV ×4</option>
+<option value=".80">Protection spécialisée (cap 80%)</option>
+</select>
+</div>
+
+<div>
+<label>Filtre</label>
+<select id="filter">
+<option value="all">Tous les mods</option>
+<option value="Vanilla">Vanilla</option>
+<option value="Ice and Fire CE">Ice and Fire CE</option>
+<option value="Cataclysm">Cataclysm</option>
+</select>
+</div>
+
+</div>
+
+<div class="grid" id="grid"></div>
+
+<div class="info">
+
+<b>Comment fonctionne la protection ?</b><br><br>
+
+Minecraft ne transforme pas directement 20 points d'armure en 80% de protection.
+
+La réduction dépend de :
+
+<ul>
+<li>l'Armor</li>
+<li>l'Armor Toughness</li>
+<li>la puissance du coup reçu</li>
+<li>les enchantements</li>
+</ul>
+
+Les attaques très fortes réduisent l'efficacité de l'armure, ce qui rend la Toughness particulièrement importante.
+
+<br><br>
+
+Le site calcule également les dégâts réellement reçus après armure + enchantements.
+
+</div>
+
+</main>
+
+<script>
+
+const sets=[
+{
+name:"Dragonsteel",
+mod:"Ice and Fire CE",
+armor:34,
+tough:24,
+kb:40,
+note:"Set Dragonsteel — énorme défense brute et excellente toughness."
+},
+{
+name:"Ignitium",
+mod:"Cataclysm",
+armor:32,
+tough:16,
+kb:60,
+note:"Armure Ignitium avec capacités spéciales et très forte résistance."
+},
+{
+name:"Cursium",
+mod:"Cataclysm",
+armor:28,
+tough:16,
+kb:20,
+note:"Armure orientée survie avec capacités spéciales de Cataclysm."
+},
+{
+name:"Bone Reptile",
+mod:"Cataclysm",
+armor:28,
+tough:10,
+kb:60,
+note:"Très grosse résistance au knockback."
+},
+{
+name:"Netherite",
+mod:"Vanilla",
+armor:20,
+tough:12,
+kb:40,
+note:"Référence vanilla haut niveau."
+},
+{
+name:"Diamond",
+mod:"Vanilla",
+armor:20,
+tough:8,
+kb:0,
+note:"Référence vanilla classique."
+}
+];
+
+function reduction(set,damage){
+
+const armor=Math.min(set.armor,30);
+const tough=Math.min(set.tough,20);
+
+const armorReduction=
+Math.min(
+20,
+Math.max(
+armor/5,
+armor-damage/(2+tough/4)
+)
+)/25;
+
+return armorReduction;
+
+}
+
+function totalReduction(set,damage,enchant){
+
+const armorRed=reduction(set,damage);
+
+return 1-(1-armorRed)*(1-enchant);
+
+}
+
+function render(){
+
+const dmg=Number(document.getElementById("damage").value)||1;
+const enchant=Number(document.getElementById("enchant").value);
+const filter=document.getElementById("filter").value;
+
+let results=sets
+.filter(s=>filter==="all"||s.mod===filter)
+.map(s=>{
+
+const red=totalReduction(s,dmg,enchant);
+
+return{
+...s,
+red,
+received:dmg*(1-red)
+};
+
+})
+.sort((a,b)=>b.red-a.red);
+
+document.getElementById("grid").innerHTML=
+results.map((s,i)=>`
+
+<div class="card">
+
+<div class="rank">#${i+1}</div>
+
+<div class="mod">${s.mod}</div>
+
+<h2>${s.name}</h2>
+
+<div class="big good">
+${(s.red*100).toFixed(1)}%
+</div>
+
+<div class="stats">
+
+<div class="stat">
+<b>${s.armor}</b>
+<span>Armor brut</span>
+</div>
+
+<div class="stat">
+<b>${Math.min(s.armor,30)}</b>
+<span>Armor utilisé</span>
+</div>
+
+<div class="stat">
+<b>${s.tough}</b>
+<span>Toughness brut</span>
+</div>
+
+<div class="stat">
+<b>${Math.min(s.tough,20)}</b>
+<span>Toughness utilisée</span>
+</div>
+
+<div class="stat">
+<b>${s.received.toFixed(2)}</b>
+<span>Dégâts reçus</span>
+</div>
+
+<div class="stat">
+<b>${s.kb}%</b>
+<span>Knockback Resistance</span>
+</div>
+
+</div>
+
+<p>${s.note}</p>
+
+</div>
+
+`).join("");
+
+}
+
+document.getElementById("damage").addEventListener("input",render);
+document.getElementById("enchant").addEventListener("change",render);
+document.getElementById("filter").addEventListener("change",render);
+
+render();
+
+</script>
+
+</body>
+</html>
