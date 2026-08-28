@@ -3128,8 +3128,8 @@
       "name": "Nexus Instinct",
       "url": "https://raw.githubusercontent.com/ilyem974/nexus-vanillaplus/main/channel/mods/nexus_instinct-2.0.0.jar",
       "algorithm": "sha512",
-      "hash": "1de4fa2df952e37d5fe0ff4f4cef81d815266a59da602805663a908a75ff337c9d16c046735f30bcf9c0e169868eb4a2c6f43ce9b94ac77d0fe0cb400c39dc67",
-      "size": 57234,
+      "hash": "927ecc77817ff8e6b7afa7cca31f0cd129cd56d3cd10168458741fa9c2c0ddf6f37d9c7d5a486c38031b1b3c81ea8121d0078d9fd713d800aa320c4157e101b4",
+      "size": 57328,
       "source": "Nexus"
     },
     {
@@ -3180,9 +3180,9 @@
   ],
   "overrides": {
     "resource": "pack-overrides.zip",
-    "url": "https://raw.githubusercontent.com/ilyem974/nexus-vanillaplus/main/channel/variants/standard/pack-overrides-ddffae09fdd9d4ff.zip",
+    "url": "https://raw.githubusercontent.com/ilyem974/nexus-vanillaplus/main/channel/variants/standard/pack-overrides-95960cfce5bd1b42.zip",
     "algorithm": "sha512",
-    "hash": "ddffae09fdd9d4ff4dc9891c0226f3bdd60dbd616956133e7172d21a4ef63f0dcb2f6317c8a0ff0a792a14cfafb3328117893a7fedf1380127100b0a26cb8437",
+    "hash": "95960cfce5bd1b42aa571279b71b98cec8cc25f01653117e390b9ac2b6773096ce4074eb39b877653b825ba28d661ab0de26fd1e2bf5bb9c43db5110cfa73618",
     "size": 778450
   }
 }
