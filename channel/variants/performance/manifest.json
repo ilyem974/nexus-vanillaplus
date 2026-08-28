@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "name": "Nexus Vanilla+ 1.0.4 Performance",
-  "packVersion": "1.0.4",
+  "name": "Nexus Vanilla+ 1.0.5 Performance",
+  "packVersion": "1.0.5",
   "minecraftVersion": "1.21.1",
   "loader": "neoforge",
   "loaderVersion": "21.1.248",
   "instanceId": "Nexus-VanillaPlus",
   "serverAddress": "irvine-upfront.tun.ply.gg",
-  "gameplayVersion": "1.0.4",
+  "gameplayVersion": "1.0.5",
   "variantId": "performance",
   "profileId": "performance",
   "profileName": "Nexus Vanilla+ Performance",
@@ -3170,9 +3170,9 @@
   ],
   "overrides": {
     "resource": "pack-overrides.zip",
-    "url": "https://raw.githubusercontent.com/ilyem974/nexus-vanillaplus/main/channel/variants/performance/pack-overrides-8305f90a0eb820cc.zip",
+    "url": "https://raw.githubusercontent.com/ilyem974/nexus-vanillaplus/main/channel/variants/performance/pack-overrides-a9004305517631f8.zip",
     "algorithm": "sha512",
-    "hash": "8305f90a0eb820cc9671cbaf15964bc0c8ee76cd80868ef495437bd7e2124b1e8d58c15b9f846714648873df3c6f2c2ae2685ab8b18bc89f742454fa5fbd7712",
+    "hash": "a9004305517631f823fa4832cd39e007696e4763d6581d1f84d83c46e3c58cc2d1365fdee49bf23eadb465f81b9bbd9998afa0e1efaf704058ee12d31cd04562",
     "size": 766435
   }
 }
