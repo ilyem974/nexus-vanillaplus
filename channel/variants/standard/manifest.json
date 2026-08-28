@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "name": "Nexus Vanilla+ 1.0.6 Standard",
-  "packVersion": "1.0.6",
+  "name": "Nexus Vanilla+ 1.0.7 Standard",
+  "packVersion": "1.0.7",
   "minecraftVersion": "1.21.1",
   "loader": "neoforge",
   "loaderVersion": "21.1.248",
   "instanceId": "Nexus-VanillaPlus",
   "serverAddress": "irvine-upfront.tun.ply.gg",
-  "gameplayVersion": "1.0.6",
+  "gameplayVersion": "1.0.7",
   "variantId": "standard",
   "profileId": "standard",
   "profileName": "Nexus Vanilla+ Standard",
@@ -261,6 +261,9 @@
     "shaderpacks/ComplementaryUnbound_r5.8.1.zip",
     "mods/nexus_instinct-2.0.0.jar",
     "mods/holobuilder-neoforge-1.21.1-0.1.5.jar",
+    "mods/forgematica-0.4.2+mc1.21.1.jar",
+    "mods/mafglib-0.4.3+mc1.21.1.jar",
+    "mods/forgematicapatch-1.0.0.jar",
     "mods/skinlayers3d-neoforge-1.11.2-mc1.21.1.jar",
     "mods/notenoughanimations-neoforge-1.12.4-mc1.21.1.jar",
     "mods/entity_texture_features_1.21-neoforge-7.1.jar",
@@ -3128,9 +3131,36 @@
       "name": "Nexus Instinct",
       "url": "https://raw.githubusercontent.com/ilyem974/nexus-vanillaplus/main/channel/mods/nexus_instinct-2.0.0.jar",
       "algorithm": "sha512",
-      "hash": "57826b55aac4dcca79ea85424d6a9eb99bba69450e39798532ca9bb42a028ecb916b462c5dd7d892405a8e99c4ac4b9456dd6e2ff038edf9839d8d959214bbd8",
-      "size": 58058,
+      "hash": "084182a660098a6a754a7161c914c378a55ea25d63a0edab57f1a80966536583fa6d286235d77710e393bbab51b58e342b543383e0daf30ac3c326f483fd3205",
+      "size": 58752,
       "source": "Nexus"
+    },
+    {
+      "path": "mods/forgematica-0.4.2+mc1.21.1.jar",
+      "name": "Forgematica 0.4.2 (Litematica NeoForge)",
+      "url": "https://cdn.modrinth.com/data/dCKRaeBC/versions/71jxaAwz/forgematica-0.4.2%2Bmc1.21.1.jar",
+      "algorithm": "sha512",
+      "hash": "4436d2dbeb5e7f63615ce40f99b980e07acf03ac0709ccf0f951c2841fb2983da7e2d55802659b4026b4b3bcc76ce1e29c605cb589059318c4b704615f0a3378",
+      "size": 1646155,
+      "source": "Modrinth"
+    },
+    {
+      "path": "mods/mafglib-0.4.3+mc1.21.1.jar",
+      "name": "MaFgLib 0.4.3",
+      "url": "https://cdn.modrinth.com/data/SKI34J7B/versions/CgDQ0u0Q/mafglib-0.4.3%2Bmc1.21.1.jar",
+      "algorithm": "sha512",
+      "hash": "b28b0552022ba22a729c917b848d119b84236689b550b99ba1fe11f2353551abcd2d9e23b190689be82376a9b2a47ffc22cdb116f413d6f76a5d19f075a9e78d",
+      "size": 1314767,
+      "source": "Modrinth"
+    },
+    {
+      "path": "mods/forgematicapatch-1.0.0.jar",
+      "name": "Forgematica Patch 1.0.0",
+      "url": "https://cdn.modrinth.com/data/juAdL08A/versions/9UvZ62xh/forgematicapatch-1.0.0.jar",
+      "algorithm": "sha512",
+      "hash": "03fbeef6884ae4f74db03c16c69ed80264ac3440c34514f3a702ccc2405a21f4afb4d5a386a9770e50cd7ae0f8fa1defea3f3ea84c807642e1a7dc41fe001d14",
+      "size": 6292,
+      "source": "Modrinth"
     },
     {
       "path": "mods/skinlayers3d-neoforge-1.11.2-mc1.21.1.jar",
@@ -3180,9 +3210,9 @@
   ],
   "overrides": {
     "resource": "pack-overrides.zip",
-    "url": "https://raw.githubusercontent.com/ilyem974/nexus-vanillaplus/main/channel/variants/standard/pack-overrides-5686d7940b68b99c.zip",
+    "url": "https://raw.githubusercontent.com/ilyem974/nexus-vanillaplus/main/channel/variants/standard/pack-overrides-fe02d03bda28203e.zip",
     "algorithm": "sha512",
-    "hash": "5686d7940b68b99cbb7554941355eb1fcd97eb034651be79d286a235517ac008b2f5a9753d6d541d1179a0978c6848e0857a0c4f84bafab0d4e458245aafab41",
+    "hash": "fe02d03bda28203e06515ee054e134dce48e42fe18fb4b5e70c1d0db2d95be562c76774c5cf328f6e48dd5eae1c8c8e79bce42732083b9ad5760a0b72dd4ee18",
     "size": 778450
   }
 }
