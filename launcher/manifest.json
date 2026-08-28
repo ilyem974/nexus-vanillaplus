@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "launcherVersion": "1.1.1",
+  "launcherVersion": "1.2.2",
   "minimumBootstrapVersion": "1.1.0",
-  "url": "https://github.com/ilyem974/nexus-vanillaplus/releases/latest/download/NexusLauncher-1.1.1.dll",
-  "fileSignatureUrl": "https://github.com/ilyem974/nexus-vanillaplus/releases/latest/download/NexusLauncher-1.1.1.dll.sig",
+  "url": "https://github.com/ilyem974/nexus-vanillaplus/releases/latest/download/NexusLauncher-1.2.2.dll",
+  "fileSignatureUrl": "https://github.com/ilyem974/nexus-vanillaplus/releases/latest/download/NexusLauncher-1.2.2.dll.sig",
   "algorithm": "sha512",
-  "hash": "aa5411baaff8d62d520d7d00fb86fb4e5b2b44f06b913b031f785b83b39406b0725c3da6ce29fbdc001c0114bc47b7de5d7e1533ce66d76201a1b2d41b5711ab",
-  "size": 47130624,
-  "publishedAt": "2026-08-25T18:55:51.728595Z"
+  "hash": "5d694d499151c53e4e0ad80addcc57c71620197ebde9b9268033fd4d89c13b76202d8d0c82be7d4c0cac01247e86dd00de9ddf438b47b8eace1c4c92cb2e8f83",
+  "size": 47230976,
+  "publishedAt": "2026-08-28T13:44:36.480461Z"
 }
