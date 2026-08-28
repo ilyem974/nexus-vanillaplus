@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "name": "Nexus Vanilla+ 1.0.5 Performance",
-  "packVersion": "1.0.5",
+  "name": "Nexus Vanilla+ 1.0.6 Performance",
+  "packVersion": "1.0.6",
   "minecraftVersion": "1.21.1",
   "loader": "neoforge",
   "loaderVersion": "21.1.248",
   "instanceId": "Nexus-VanillaPlus",
   "serverAddress": "irvine-upfront.tun.ply.gg",
-  "gameplayVersion": "1.0.5",
+  "gameplayVersion": "1.0.6",
   "variantId": "performance",
   "profileId": "performance",
   "profileName": "Nexus Vanilla+ Performance",
@@ -3118,8 +3118,8 @@
       "name": "Nexus Instinct",
       "url": "https://raw.githubusercontent.com/ilyem974/nexus-vanillaplus/main/channel/mods/nexus_instinct-2.0.0.jar",
       "algorithm": "sha512",
-      "hash": "57c163ad719678ca0d4a9c22d950b439b4a4f6cd0944faa8e13f1c95b6d8ee6cc14274f7028f3951ee9052441dff80356b487154054620ce74679d7f1594ebcd",
-      "size": 57340,
+      "hash": "57826b55aac4dcca79ea85424d6a9eb99bba69450e39798532ca9bb42a028ecb916b462c5dd7d892405a8e99c4ac4b9456dd6e2ff038edf9839d8d959214bbd8",
+      "size": 58058,
       "source": "Nexus"
     },
     {
@@ -3170,9 +3170,9 @@
   ],
   "overrides": {
     "resource": "pack-overrides.zip",
-    "url": "https://raw.githubusercontent.com/ilyem974/nexus-vanillaplus/main/channel/variants/performance/pack-overrides-a9004305517631f8.zip",
+    "url": "https://raw.githubusercontent.com/ilyem974/nexus-vanillaplus/main/channel/variants/performance/pack-overrides-8b9a7c5de151404e.zip",
     "algorithm": "sha512",
-    "hash": "a9004305517631f823fa4832cd39e007696e4763d6581d1f84d83c46e3c58cc2d1365fdee49bf23eadb465f81b9bbd9998afa0e1efaf704058ee12d31cd04562",
+    "hash": "8b9a7c5de151404e1a5d77c6b286ab249b133e8b54ec20fef031379b52ea1c253ce28f452323949cef3950a47da0b98f7c802cfa962f3cbd0a5ad0340c70ef3e",
     "size": 766435
   }
 }
