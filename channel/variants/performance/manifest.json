@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "name": "Nexus Vanilla+ 1.0.8 Performance",
-  "packVersion": "1.0.8",
+  "name": "Nexus Vanilla+ 1.0.9 Performance",
+  "packVersion": "1.0.9",
   "minecraftVersion": "1.21.1",
   "loader": "neoforge",
   "loaderVersion": "21.1.248",
   "instanceId": "Nexus-VanillaPlus",
   "serverAddress": "irvine-upfront.tun.ply.gg",
-  "gameplayVersion": "1.0.8",
+  "gameplayVersion": "1.0.9",
   "variantId": "performance",
   "profileId": "performance",
   "profileName": "Nexus Vanilla+ Performance",
@@ -260,6 +260,8 @@
     "shaderpacks/ComplementaryUnbound_r5.8.1.zip",
     "mods/nexus_instinct-2.0.0.jar",
     "mods/holobuilder-neoforge-1.21.1-0.1.5.jar",
+    "mods/Mine Frame Gen-neoforge-1.21.1-1.1.0.jar",
+    "mods/ragdoll-physics-neoforge-1.21.1-beta.jar",
     "mods/createfood-neoforge-1.21.1-2.7.1.jar",
     "mods/cookingforblockheads-neoforge-1.21.1-21.1.24.jar",
     "mods/forgematica-0.4.2+mc1.21.1.jar",
@@ -273,7 +275,8 @@
   "requiredServerFiles": [
     "mods/nexus_instinct-2.0.0.jar",
     "mods/cookingforblockheads-neoforge-1.21.1-21.1.24.jar",
-    "mods/createfood-neoforge-1.21.1-2.7.1.jar"
+    "mods/createfood-neoforge-1.21.1-2.7.1.jar",
+    "mods/ragdoll-physics-neoforge-1.21.1-beta.jar"
   ],
   "configFiles": [
     "config/DistantHorizons.toml",
@@ -3132,6 +3135,24 @@
       "source": "Nexus"
     },
     {
+      "path": "mods/Mine Frame Gen-neoforge-1.21.1-1.1.0.jar",
+      "name": "Mine Frame Gen 1.1.0",
+      "url": "https://cdn.modrinth.com/data/rGvQvLJm/versions/Of6KBjKL/Mine%20Frame%20Gen-neoforge-1.21.1-1.1.0.jar",
+      "algorithm": "sha512",
+      "hash": "99b5218da474e68811ecd11cdc81610d7ecf6c6a5217c5b4604f58ef234534feafd344ef9f5f051fbe89f1c930f5dc29d33e9ef13f4ddff6c094115e6ee6247c",
+      "size": 22382,
+      "source": "Modrinth"
+    },
+    {
+      "path": "mods/ragdoll-physics-neoforge-1.21.1-beta.jar",
+      "name": "Ragdoll Physics 2.1.0.7",
+      "url": "https://edge.forgecdn.net/files/8413/415/ragdoll-physics-neoforge-1.21.1-beta.jar",
+      "algorithm": "sha512",
+      "hash": "d2d6247f61a68c2b74d67c563b4dcebf83bfb899b7c0865fede488dd01cbfdb3a675c00a515b38ae2532f79ec095ed9b8c7158e33754d58b246aeedd08b5bdba",
+      "size": 60420,
+      "source": "Modrinth"
+    },
+    {
       "path": "mods/createfood-neoforge-1.21.1-2.7.1.jar",
       "name": "Create: Food 2.7.1",
       "url": "https://cdn.modrinth.com/data/4HnO3el1/versions/CnuisYs3/createfood-neoforge-1.21.1-2.7.1.jar",
@@ -3224,9 +3245,9 @@
   ],
   "overrides": {
     "resource": "pack-overrides.zip",
-    "url": "https://raw.githubusercontent.com/ilyem974/nexus-vanillaplus/main/channel/variants/performance/pack-overrides-eafe4bdd844cf79c.zip",
+    "url": "https://raw.githubusercontent.com/ilyem974/nexus-vanillaplus/main/channel/variants/performance/pack-overrides-425d76b791622e56.zip",
     "algorithm": "sha512",
-    "hash": "eafe4bdd844cf79c5fccaebf53ad7986e5299d7ddb70c45034ca222638c69a66be17beabee562d86a5c962779dcd46735e87e93b95c559763991a07d31e573a7",
+    "hash": "425d76b791622e562ed5b4c2e73ba44d19f372016bf7522f60a9d54da4ac3ef1b55f0ddd93454936740e434941b7236639d48c30a1834cdde0b0c9a6fd1997d0",
     "size": 766444
   }
 }
