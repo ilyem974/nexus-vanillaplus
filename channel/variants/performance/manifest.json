@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "name": "Nexus Vanilla+ 1.0.11 Performance",
-  "packVersion": "1.0.11",
+  "name": "Nexus Vanilla+ 1.0.12 Performance",
+  "packVersion": "1.0.12",
   "minecraftVersion": "1.21.1",
   "loader": "neoforge",
   "loaderVersion": "21.1.248",
   "instanceId": "Nexus-VanillaPlus",
   "serverAddress": "irvine-upfront.tun.ply.gg",
-  "gameplayVersion": "1.0.11",
+  "gameplayVersion": "1.0.12",
   "variantId": "performance",
   "profileId": "performance",
   "profileName": "Nexus Vanilla+ Performance",
@@ -277,8 +277,7 @@
     "mods/Ixeris-4.6.5+1.21.1-neoforge.jar",
     "mods/gnetum-3.3.6.jar",
     "mods/sodium-shadowy-path-blocks-neoforge-4.1.0.jar",
-    "mods/alltheleaks-1.1.12+1.21.1-neoforge.jar",
-    "mods/lightspeed-1.21.1-1.2.3.jar"
+    "mods/alltheleaks-1.1.12+1.21.1-neoforge.jar"
   ],
   "requiredServerFiles": [
     "mods/nexus_instinct-2.0.0.jar",
@@ -3307,15 +3306,6 @@
       "source": "CurseForge"
     },
     {
-      "path": "mods/lightspeed-1.21.1-1.2.3.jar",
-      "name": "LightSpeedRe 1.2.3",
-      "url": "https://cdn.modrinth.com/data/niZHUKxZ/versions/zC933Wl3/lightspeed-1.21.1-1.2.3.jar",
-      "algorithm": "sha512",
-      "hash": "f39186bb01788dcab2a60a750f4276239c3a6e4249aa604b736cadad38490dc3a644bf3d3d12ced383fc48dd0a9dd8a5f84673f11b5c80eb3efe496069255222",
-      "size": 80094,
-      "source": "Modrinth"
-    },
-    {
       "path": "mods/holobuilder-neoforge-1.21.1-0.1.5.jar",
       "name": "HoloBuilder - Schematic Loader 0.1.5",
       "url": "https://cdn.modrinth.com/data/k9maSaFI/versions/6EA50HjJ/holobuilder-neoforge-1.21.1-0.1.5.jar",
@@ -3327,9 +3317,9 @@
   ],
   "overrides": {
     "resource": "pack-overrides.zip",
-    "url": "https://raw.githubusercontent.com/ilyem974/nexus-vanillaplus/main/channel/variants/performance/pack-overrides-2d6190f384825d3f.zip",
+    "url": "https://raw.githubusercontent.com/ilyem974/nexus-vanillaplus/main/channel/variants/performance/pack-overrides-9d6f693735c7f0fc.zip",
     "algorithm": "sha512",
-    "hash": "2d6190f384825d3fbc1feacb1e00681257d06b7fa5319f91ce0248b67729b9b5866bbce7fe5a3593405f354f81a1977e8c3f66d6d4a3b7df4c557c99a025556b",
+    "hash": "9d6f693735c7f0fc796d23c2610da18d7a6070ab79a23f60f2452f5b4449d4fdf3affe0fd54269a41c00bd1893e417f3196b82881be1a229976ca4a3c27bd061",
     "size": 767511
   }
 }
