@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "name": "Nexus Vanilla+ 1.0.9 Performance",
-  "packVersion": "1.0.9",
+  "name": "Nexus Vanilla+ 1.0.10 Performance",
+  "packVersion": "1.0.10",
   "minecraftVersion": "1.21.1",
   "loader": "neoforge",
   "loaderVersion": "21.1.248",
   "instanceId": "Nexus-VanillaPlus",
   "serverAddress": "irvine-upfront.tun.ply.gg",
-  "gameplayVersion": "1.0.9",
+  "gameplayVersion": "1.0.10",
   "variantId": "performance",
   "profileId": "performance",
   "profileName": "Nexus Vanilla+ Performance",
@@ -270,13 +270,26 @@
     "mods/skinlayers3d-neoforge-1.11.2-mc1.21.1.jar",
     "mods/notenoughanimations-neoforge-1.12.4-mc1.21.1.jar",
     "mods/entity_texture_features_1.21-neoforge-7.1.jar",
-    "mods/entity_model_features-3.2.4-1.21-neoforge.jar"
+    "mods/entity_model_features-3.2.4-1.21-neoforge.jar",
+    "mods/ragdoll_reactions-1.21.1-0.7.0.jar",
+    "mods/sable_player_ragdoll-1.21.1-0.7.5.jar",
+    "mods/k_turrets-neoforge-1.21.1-4.0.16.jar",
+    "mods/satako-neoforge-1.21.1-8.0.169.jar",
+    "mods/BadOptimizations-2.4.1-1.21.1.jar",
+    "mods/Fastquit-3.0.1+1.21.1neoforge.jar",
+    "mods/Ixeris-4.6.5+1.21.1-neoforge.jar",
+    "mods/gnetum-3.3.6.jar",
+    "mods/sodium-shadowy-path-blocks-neoforge-4.1.0.jar"
   ],
   "requiredServerFiles": [
     "mods/nexus_instinct-2.0.0.jar",
     "mods/cookingforblockheads-neoforge-1.21.1-21.1.24.jar",
     "mods/createfood-neoforge-1.21.1-2.7.1.jar",
-    "mods/ragdoll-physics-neoforge-1.21.1-beta.jar"
+    "mods/k_turrets-neoforge-1.21.1-4.0.16.jar",
+    "mods/ragdoll-physics-neoforge-1.21.1-beta.jar",
+    "mods/ragdoll_reactions-1.21.1-0.7.0.jar",
+    "mods/sable_player_ragdoll-1.21.1-0.7.5.jar",
+    "mods/satako-neoforge-1.21.1-8.0.169.jar"
   ],
   "configFiles": [
     "config/DistantHorizons.toml",
@@ -3234,6 +3247,87 @@
       "source": "Modrinth"
     },
     {
+      "path": "mods/ragdoll_reactions-1.21.1-0.7.0.jar",
+      "name": "Ragdoll Reactions 0.7.0",
+      "url": "https://cdn.modrinth.com/data/6awFMFjR/versions/yx32Af0N/ragdoll_reactions-1.21.1-0.7.0.jar",
+      "algorithm": "sha512",
+      "hash": "aab94063635d8790a33a9eb2191d7fc8b3b38b1b2885c0de96573ab3fbcb9a62b904f1512e6f39c3e13648b65b76f211f1b816608535174aac713b3d61364765",
+      "size": 226506,
+      "source": "Modrinth"
+    },
+    {
+      "path": "mods/sable_player_ragdoll-1.21.1-0.7.5.jar",
+      "name": "Sable Player Ragdoll 0.7.5",
+      "url": "https://cdn.modrinth.com/data/I3mWDgfy/versions/CyKh8XSr/sable_player_ragdoll-1.21.1-0.7.5.jar",
+      "algorithm": "sha512",
+      "hash": "c986f58bc4a4b0d47081e586a9d9c281096abf9c77bcde45f6ae1488e8120e71b79e019d2145ff0a392c5c168f5a8fb2b38907b1f5c6ab9d892622c55dac0ef9",
+      "size": 1466748,
+      "source": "Modrinth"
+    },
+    {
+      "path": "mods/k_turrets-neoforge-1.21.1-4.0.16.jar",
+      "name": "K-Turrets 4.0.16",
+      "url": "https://edge.forgecdn.net/files/8631/119/k_turrets-neoforge-1.21.1-4.0.16.jar",
+      "algorithm": "sha512",
+      "hash": "200ea5f316118f6651c30ab1fec322583c575210568717b6135670aef73835593209f78d57b1fbd6bc6f7e49e7158e758fc15770a97beef8d06616a894cb6720",
+      "size": 1190141,
+      "source": "CurseForge"
+    },
+    {
+      "path": "mods/satako-neoforge-1.21.1-8.0.169.jar",
+      "name": "Satako 8.0.169",
+      "url": "https://cdn.modrinth.com/data/fwC1Kin9/versions/5zDa9F1W/satako-neoforge-1.21.1-8.0.169.jar",
+      "algorithm": "sha512",
+      "hash": "ece2a5da11236866635effae38d39e4ae2d45da3c7d6d19d634501c1eeff7914aa7bdcc87623f156c2266bc5706c398107edfadb258150fb70dd4d017d119b36",
+      "size": 172427,
+      "source": "Modrinth"
+    },
+    {
+      "path": "mods/BadOptimizations-2.4.1-1.21.1.jar",
+      "name": "BadOptimizations 2.4.1",
+      "url": "https://cdn.modrinth.com/data/g96Z4WVZ/versions/S2qthD5S/BadOptimizations-2.4.1-1.21.1.jar",
+      "algorithm": "sha512",
+      "hash": "2b66428bd98bd5ec0e09f2ec6af801cefb7b9b99cc4f0993daeaffe8d0ccc5ee0c2a73e9f38d4f92540ead0181704d2c9e946837ec05cf710fc3b20fce3b0cac",
+      "size": 283566,
+      "source": "Modrinth"
+    },
+    {
+      "path": "mods/Fastquit-3.0.1+1.21.1neoforge.jar",
+      "name": "FastQuit Forge 3.0.1",
+      "url": "https://cdn.modrinth.com/data/itFaO2Tg/versions/KYXvyxuO/Fastquit-3.0.1%2B1.21.1neoforge.jar",
+      "algorithm": "sha512",
+      "hash": "a889e2a9a3237e9f39bd99d54b5e31e299f1cbc3a8e4b5d49b50dfb67ea142a6fc37b0f38a272834adfb2e8ab639c3b13e953b9a3d42c8e551c28f67bd49a801",
+      "size": 152056,
+      "source": "Modrinth"
+    },
+    {
+      "path": "mods/Ixeris-4.6.5+1.21.1-neoforge.jar",
+      "name": "Ixeris 4.6.5",
+      "url": "https://cdn.modrinth.com/data/p8RJPJIC/versions/w7GJlPMp/Ixeris-4.6.5%2B1.21.1-neoforge.jar",
+      "algorithm": "sha512",
+      "hash": "e0dc4c12d6e0abc2a0153edf8fc1a0f11bfdea29f3a9e6b18df2a4c47a4c648707d3da31ff1fdc8c584b40e702a6cbea283326d9a1f07365605c14658134914f",
+      "size": 685836,
+      "source": "Modrinth"
+    },
+    {
+      "path": "mods/gnetum-3.3.6.jar",
+      "name": "Gnetum 3.3.6",
+      "url": "https://cdn.modrinth.com/data/7MoE34WK/versions/zJLIzmi7/gnetum-3.3.6.jar",
+      "algorithm": "sha512",
+      "hash": "4a5efde1d9525cad773a5d1aa32a3d6734d2aee8c8e6894012b8244bb305eee823024b75eb6d3e140f075f3a254efc26efc4c5eb6f2ac390be96877686019f68",
+      "size": 120726,
+      "source": "Modrinth"
+    },
+    {
+      "path": "mods/sodium-shadowy-path-blocks-neoforge-4.1.0.jar",
+      "name": "Sodium Shadowy Path Blocks 4.1.0",
+      "url": "https://cdn.modrinth.com/data/EIa1eiMm/versions/FpMmigWq/sodium-shadowy-path-blocks-neoforge-4.1.0.jar",
+      "algorithm": "sha512",
+      "hash": "65c8cd1372201384b978bbec3a844e0fd706f9bda851bc5faf8e280a89951ae3b99b7dee2ce2434ec401e97a7cb968b829de264d2603d722faf1e6161e38841a",
+      "size": 79200,
+      "source": "Modrinth"
+    },
+    {
       "path": "mods/holobuilder-neoforge-1.21.1-0.1.5.jar",
       "name": "HoloBuilder - Schematic Loader 0.1.5",
       "url": "https://cdn.modrinth.com/data/k9maSaFI/versions/6EA50HjJ/holobuilder-neoforge-1.21.1-0.1.5.jar",
@@ -3245,9 +3339,9 @@
   ],
   "overrides": {
     "resource": "pack-overrides.zip",
-    "url": "https://raw.githubusercontent.com/ilyem974/nexus-vanillaplus/main/channel/variants/performance/pack-overrides-425d76b791622e56.zip",
+    "url": "https://raw.githubusercontent.com/ilyem974/nexus-vanillaplus/main/channel/variants/performance/pack-overrides-7336650edaed5b81.zip",
     "algorithm": "sha512",
-    "hash": "425d76b791622e562ed5b4c2e73ba44d19f372016bf7522f60a9d54da4ac3ef1b55f0ddd93454936740e434941b7236639d48c30a1834cdde0b0c9a6fd1997d0",
-    "size": 766444
+    "hash": "7336650edaed5b8170bb23fa412a34bb3e49295263bfe09cacd98edb1b137ef9b1f7f1bfab2a16bc0ff502ec3a5beb0cd491fc425bcba0b78002c38b8e27bbc7",
+    "size": 771181
   }
 }
