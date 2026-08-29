@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "name": "Nexus Vanilla+ 1.0.7 Standard",
-  "packVersion": "1.0.7",
+  "name": "Nexus Vanilla+ 1.0.8 Standard",
+  "packVersion": "1.0.8",
   "minecraftVersion": "1.21.1",
   "loader": "neoforge",
   "loaderVersion": "21.1.248",
   "instanceId": "Nexus-VanillaPlus",
   "serverAddress": "irvine-upfront.tun.ply.gg",
-  "gameplayVersion": "1.0.7",
+  "gameplayVersion": "1.0.8",
   "variantId": "standard",
   "profileId": "standard",
   "profileName": "Nexus Vanilla+ Standard",
@@ -261,6 +261,8 @@
     "shaderpacks/ComplementaryUnbound_r5.8.1.zip",
     "mods/nexus_instinct-2.0.0.jar",
     "mods/holobuilder-neoforge-1.21.1-0.1.5.jar",
+    "mods/createfood-neoforge-1.21.1-2.7.1.jar",
+    "mods/cookingforblockheads-neoforge-1.21.1-21.1.24.jar",
     "mods/forgematica-0.4.2+mc1.21.1.jar",
     "mods/mafglib-0.4.3+mc1.21.1.jar",
     "mods/forgematicapatch-1.0.0.jar",
@@ -269,7 +271,11 @@
     "mods/entity_texture_features_1.21-neoforge-7.1.jar",
     "mods/entity_model_features-3.2.4-1.21-neoforge.jar"
   ],
-  "requiredServerFiles": [],
+  "requiredServerFiles": [
+    "mods/nexus_instinct-2.0.0.jar",
+    "mods/cookingforblockheads-neoforge-1.21.1-21.1.24.jar",
+    "mods/createfood-neoforge-1.21.1-2.7.1.jar"
+  ],
   "configFiles": [
     "config/DistantHorizons.toml",
     "config/Mekanism/common.toml",
@@ -3131,9 +3137,27 @@
       "name": "Nexus Instinct",
       "url": "https://raw.githubusercontent.com/ilyem974/nexus-vanillaplus/main/channel/mods/nexus_instinct-2.0.0.jar",
       "algorithm": "sha512",
-      "hash": "084182a660098a6a754a7161c914c378a55ea25d63a0edab57f1a80966536583fa6d286235d77710e393bbab51b58e342b543383e0daf30ac3c326f483fd3205",
-      "size": 58752,
+      "hash": "c279bf2eaf3c9e7fe46487547a01079fbb538de569d52bd58f53964191b37df5c915bfef7e0a1daa6483401e5a3c77d62f5f186743c0252a2f5b88acd9aae914",
+      "size": 62674,
       "source": "Nexus"
+    },
+    {
+      "path": "mods/createfood-neoforge-1.21.1-2.7.1.jar",
+      "name": "Create: Food 2.7.1",
+      "url": "https://cdn.modrinth.com/data/4HnO3el1/versions/CnuisYs3/createfood-neoforge-1.21.1-2.7.1.jar",
+      "algorithm": "sha512",
+      "hash": "9f4a544671b381a0cbf8e2428dcde1578772cc5233fb3074d8a93cd987a0640e79552a2ffae8af0c8f908ed57376eb3c29b32744b4f257c3f001101e77a18420",
+      "size": 9502179,
+      "source": "Modrinth"
+    },
+    {
+      "path": "mods/cookingforblockheads-neoforge-1.21.1-21.1.24.jar",
+      "name": "Cooking for Blockheads 21.1.24",
+      "url": "https://cdn.modrinth.com/data/vJnhuDde/versions/MQCIy6VF/cookingforblockheads-neoforge-1.21.1-21.1.24.jar",
+      "algorithm": "sha512",
+      "hash": "bec8bb71b9540fd33bd4e5d1e5f151abc03c4fb97f1477f690d222c9710eabed876e5b2380a37bfdbc24649e1f66d8c963f13e6e738a336e9a0fdc88012d8447",
+      "size": 1266042,
+      "source": "Modrinth"
     },
     {
       "path": "mods/forgematica-0.4.2+mc1.21.1.jar",
@@ -3210,9 +3234,9 @@
   ],
   "overrides": {
     "resource": "pack-overrides.zip",
-    "url": "https://raw.githubusercontent.com/ilyem974/nexus-vanillaplus/main/channel/variants/standard/pack-overrides-fe02d03bda28203e.zip",
+    "url": "https://raw.githubusercontent.com/ilyem974/nexus-vanillaplus/main/channel/variants/standard/pack-overrides-cf29968199b14cb6.zip",
     "algorithm": "sha512",
-    "hash": "fe02d03bda28203e06515ee054e134dce48e42fe18fb4b5e70c1d0db2d95be562c76774c5cf328f6e48dd5eae1c8c8e79bce42732083b9ad5760a0b72dd4ee18",
-    "size": 778450
+    "hash": "cf29968199b14cb6d400b6018c468b628e49a93b3467c713b1000947a0d1d1abdafdfe44a1d6c7e6d6860e625b0ef2f3e4975441998da6cddebc9347b1b619e8",
+    "size": 778459
   }
 }
