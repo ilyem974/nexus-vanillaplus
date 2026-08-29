@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "name": "Nexus Vanilla+ 1.0.10 Standard",
-  "packVersion": "1.0.10",
+  "name": "Nexus Vanilla+ 1.0.11 Standard",
+  "packVersion": "1.0.11",
   "minecraftVersion": "1.21.1",
   "loader": "neoforge",
   "loaderVersion": "21.1.248",
   "instanceId": "Nexus-VanillaPlus",
   "serverAddress": "irvine-upfront.tun.ply.gg",
-  "gameplayVersion": "1.0.10",
+  "gameplayVersion": "1.0.11",
   "variantId": "standard",
   "profileId": "standard",
   "profileName": "Nexus Vanilla+ Standard",
@@ -262,7 +262,6 @@
     "mods/nexus_instinct-2.0.0.jar",
     "mods/holobuilder-neoforge-1.21.1-0.1.5.jar",
     "mods/Mine Frame Gen-neoforge-1.21.1-1.1.0.jar",
-    "mods/ragdoll-physics-neoforge-1.21.1-beta.jar",
     "mods/createfood-neoforge-1.21.1-2.7.1.jar",
     "mods/cookingforblockheads-neoforge-1.21.1-21.1.24.jar",
     "mods/forgematica-0.4.2+mc1.21.1.jar",
@@ -272,24 +271,22 @@
     "mods/notenoughanimations-neoforge-1.12.4-mc1.21.1.jar",
     "mods/entity_texture_features_1.21-neoforge-7.1.jar",
     "mods/entity_model_features-3.2.4-1.21-neoforge.jar",
-    "mods/ragdoll_reactions-1.21.1-0.7.0.jar",
-    "mods/sable_player_ragdoll-1.21.1-0.7.5.jar",
     "mods/k_turrets-neoforge-1.21.1-4.0.16.jar",
     "mods/satako-neoforge-1.21.1-8.0.169.jar",
     "mods/BadOptimizations-2.4.1-1.21.1.jar",
     "mods/Fastquit-3.0.1+1.21.1neoforge.jar",
     "mods/Ixeris-4.6.5+1.21.1-neoforge.jar",
     "mods/gnetum-3.3.6.jar",
-    "mods/sodium-shadowy-path-blocks-neoforge-4.1.0.jar"
+    "mods/sodium-shadowy-path-blocks-neoforge-4.1.0.jar",
+    "mods/alltheleaks-1.1.12+1.21.1-neoforge.jar",
+    "mods/lightspeed-1.21.1-1.2.3.jar"
   ],
   "requiredServerFiles": [
     "mods/nexus_instinct-2.0.0.jar",
+    "mods/alltheleaks-1.1.12+1.21.1-neoforge.jar",
     "mods/cookingforblockheads-neoforge-1.21.1-21.1.24.jar",
     "mods/createfood-neoforge-1.21.1-2.7.1.jar",
     "mods/k_turrets-neoforge-1.21.1-4.0.16.jar",
-    "mods/ragdoll-physics-neoforge-1.21.1-beta.jar",
-    "mods/ragdoll_reactions-1.21.1-0.7.0.jar",
-    "mods/sable_player_ragdoll-1.21.1-0.7.5.jar",
     "mods/satako-neoforge-1.21.1-8.0.169.jar"
   ],
   "configFiles": [
@@ -950,7 +947,7 @@
     "nexus/THIRD_PARTY_LICENSES.md",
     "servers.dat"
   ],
-  "minimumLauncherVersion": "1.2.0",
+  "minimumLauncherVersion": "1.2.4",
   "files": [
     {
       "path": "mods/AdvancementPlaques-1.21.1-neoforge-1.6.8.jar",
@@ -3167,15 +3164,6 @@
       "source": "Modrinth"
     },
     {
-      "path": "mods/ragdoll-physics-neoforge-1.21.1-beta.jar",
-      "name": "Ragdoll Physics 2.1.0.7",
-      "url": "https://edge.forgecdn.net/files/8413/415/ragdoll-physics-neoforge-1.21.1-beta.jar",
-      "algorithm": "sha512",
-      "hash": "d2d6247f61a68c2b74d67c563b4dcebf83bfb899b7c0865fede488dd01cbfdb3a675c00a515b38ae2532f79ec095ed9b8c7158e33754d58b246aeedd08b5bdba",
-      "size": 60420,
-      "source": "Modrinth"
-    },
-    {
       "path": "mods/createfood-neoforge-1.21.1-2.7.1.jar",
       "name": "Create: Food 2.7.1",
       "url": "https://cdn.modrinth.com/data/4HnO3el1/versions/CnuisYs3/createfood-neoforge-1.21.1-2.7.1.jar",
@@ -3257,24 +3245,6 @@
       "source": "Modrinth"
     },
     {
-      "path": "mods/ragdoll_reactions-1.21.1-0.7.0.jar",
-      "name": "Ragdoll Reactions 0.7.0",
-      "url": "https://cdn.modrinth.com/data/6awFMFjR/versions/yx32Af0N/ragdoll_reactions-1.21.1-0.7.0.jar",
-      "algorithm": "sha512",
-      "hash": "aab94063635d8790a33a9eb2191d7fc8b3b38b1b2885c0de96573ab3fbcb9a62b904f1512e6f39c3e13648b65b76f211f1b816608535174aac713b3d61364765",
-      "size": 226506,
-      "source": "Modrinth"
-    },
-    {
-      "path": "mods/sable_player_ragdoll-1.21.1-0.7.5.jar",
-      "name": "Sable Player Ragdoll 0.7.5",
-      "url": "https://cdn.modrinth.com/data/I3mWDgfy/versions/CyKh8XSr/sable_player_ragdoll-1.21.1-0.7.5.jar",
-      "algorithm": "sha512",
-      "hash": "c986f58bc4a4b0d47081e586a9d9c281096abf9c77bcde45f6ae1488e8120e71b79e019d2145ff0a392c5c168f5a8fb2b38907b1f5c6ab9d892622c55dac0ef9",
-      "size": 1466748,
-      "source": "Modrinth"
-    },
-    {
       "path": "mods/k_turrets-neoforge-1.21.1-4.0.16.jar",
       "name": "K-Turrets 4.0.16",
       "url": "https://edge.forgecdn.net/files/8631/119/k_turrets-neoforge-1.21.1-4.0.16.jar",
@@ -3338,6 +3308,24 @@
       "source": "Modrinth"
     },
     {
+      "path": "mods/alltheleaks-1.1.12+1.21.1-neoforge.jar",
+      "name": "All The Leaks 1.1.12",
+      "url": "https://edge.forgecdn.net/files/8648/639/alltheleaks-1.1.12%2B1.21.1-neoforge.jar",
+      "algorithm": "sha512",
+      "hash": "c6ac6871b559aa88c53f67eda0f057bcd3cf52c907816d7a806a68f589e69c9dfb63a9fe2feb94ad92ac178353950555cae1e119a6d95db26597175ad0d5ed00",
+      "size": 562895,
+      "source": "CurseForge"
+    },
+    {
+      "path": "mods/lightspeed-1.21.1-1.2.3.jar",
+      "name": "LightSpeedRe 1.2.3",
+      "url": "https://cdn.modrinth.com/data/niZHUKxZ/versions/zC933Wl3/lightspeed-1.21.1-1.2.3.jar",
+      "algorithm": "sha512",
+      "hash": "f39186bb01788dcab2a60a750f4276239c3a6e4249aa604b736cadad38490dc3a644bf3d3d12ced383fc48dd0a9dd8a5f84673f11b5c80eb3efe496069255222",
+      "size": 80094,
+      "source": "Modrinth"
+    },
+    {
       "path": "mods/holobuilder-neoforge-1.21.1-0.1.5.jar",
       "name": "HoloBuilder - Schematic Loader 0.1.5",
       "url": "https://cdn.modrinth.com/data/k9maSaFI/versions/6EA50HjJ/holobuilder-neoforge-1.21.1-0.1.5.jar",
@@ -3349,9 +3337,9 @@
   ],
   "overrides": {
     "resource": "pack-overrides.zip",
-    "url": "https://raw.githubusercontent.com/ilyem974/nexus-vanillaplus/main/channel/variants/standard/pack-overrides-41a193b53f8cd58d.zip",
+    "url": "https://raw.githubusercontent.com/ilyem974/nexus-vanillaplus/main/channel/variants/standard/pack-overrides-7ae83ab5b53d853d.zip",
     "algorithm": "sha512",
-    "hash": "41a193b53f8cd58da4c6ddc8934caf6663863e48b5c65895acf4d959bb6954945a1c0367fece15fa314ef9b7a95c2ee69501e6b5d10201b29fe17feaace1bd17",
-    "size": 783196
+    "hash": "7ae83ab5b53d853d222a108497e5f3ee67ba98063fd80a16ebaf8daa4bf6f16c546ef9c3a005e9e641e15c2934a72b6232f08fae4d5ba0d7b6aeb11be1322b2c",
+    "size": 779526
   }
 }
