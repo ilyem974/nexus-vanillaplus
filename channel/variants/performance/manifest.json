@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "name": "Nexus Vanilla+ 1.0.12 Performance",
-  "packVersion": "1.0.12",
+  "name": "Nexus Vanilla+ 1.0.13 Performance",
+  "packVersion": "1.0.13",
   "minecraftVersion": "1.21.1",
   "loader": "neoforge",
   "loaderVersion": "21.1.248",
   "instanceId": "Nexus-VanillaPlus",
   "serverAddress": "irvine-upfront.tun.ply.gg",
-  "gameplayVersion": "1.0.12",
+  "gameplayVersion": "1.0.13",
   "variantId": "performance",
   "profileId": "performance",
   "profileName": "Nexus Vanilla+ Performance",
@@ -260,6 +260,7 @@
     "shaderpacks/ComplementaryUnbound_r5.8.1.zip",
     "mods/nexus_instinct-2.0.0.jar",
     "mods/holobuilder-neoforge-1.21.1-0.1.5.jar",
+    "mods/tacz-neoforge-1.21.1-1.1.8-hotfix-r6.jar",
     "mods/Mine Frame Gen-neoforge-1.21.1-1.1.0.jar",
     "mods/createfood-neoforge-1.21.1-2.7.1.jar",
     "mods/cookingforblockheads-neoforge-1.21.1-21.1.24.jar",
@@ -285,7 +286,8 @@
     "mods/cookingforblockheads-neoforge-1.21.1-21.1.24.jar",
     "mods/createfood-neoforge-1.21.1-2.7.1.jar",
     "mods/k_turrets-neoforge-1.21.1-4.0.16.jar",
-    "mods/satako-neoforge-1.21.1-8.0.169.jar"
+    "mods/satako-neoforge-1.21.1-8.0.169.jar",
+    "mods/tacz-neoforge-1.21.1-1.1.8-hotfix-r6.jar"
   ],
   "configFiles": [
     "config/DistantHorizons.toml",
@@ -3144,6 +3146,15 @@
       "source": "Nexus"
     },
     {
+      "path": "mods/tacz-neoforge-1.21.1-1.1.8-hotfix-r6.jar",
+      "name": "TaCZ NeoForge 1.21.1 1.1.8-hotfix-r6",
+      "url": "https://cdn.modrinth.com/data/OypNE65K/versions/wPvGWIj9/tacz-neoforge-1.21.1-1.1.8-hotfix-r6.jar",
+      "algorithm": "sha512",
+      "hash": "ce14e985ce16d0517e7b1d41969a244818f46c1e4ae93842c3149963990aa488692c5372ecc4b71fe560a99794a3f865244dbef5b182beec4411148b4f83c53c",
+      "size": 57242132,
+      "source": "Modrinth"
+    },
+    {
       "path": "mods/Mine Frame Gen-neoforge-1.21.1-1.1.0.jar",
       "name": "Mine Frame Gen 1.1.0",
       "url": "https://cdn.modrinth.com/data/rGvQvLJm/versions/Of6KBjKL/Mine%20Frame%20Gen-neoforge-1.21.1-1.1.0.jar",
@@ -3317,9 +3328,9 @@
   ],
   "overrides": {
     "resource": "pack-overrides.zip",
-    "url": "https://raw.githubusercontent.com/ilyem974/nexus-vanillaplus/main/channel/variants/performance/pack-overrides-9d6f693735c7f0fc.zip",
+    "url": "https://raw.githubusercontent.com/ilyem974/nexus-vanillaplus/main/channel/variants/performance/pack-overrides-fcb3dcf40034276f.zip",
     "algorithm": "sha512",
-    "hash": "9d6f693735c7f0fc796d23c2610da18d7a6070ab79a23f60f2452f5b4449d4fdf3affe0fd54269a41c00bd1893e417f3196b82881be1a229976ca4a3c27bd061",
-    "size": 767511
+    "hash": "fcb3dcf40034276f364f5fd6be3ad90f85de2b10ed1c0c7d818fb6986cfb968b9bce7caee5b0b794a6307c7667cda701305dcc56adbd36ceb31bc8ea077346b4",
+    "size": 768597
   }
 }

@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "name": "Nexus Vanilla+ 1.0.12 Standard",
-  "packVersion": "1.0.12",
+  "name": "Nexus Vanilla+ 1.0.13 Standard",
+  "packVersion": "1.0.13",
   "minecraftVersion": "1.21.1",
   "loader": "neoforge",
   "loaderVersion": "21.1.248",
   "instanceId": "Nexus-VanillaPlus",
   "serverAddress": "irvine-upfront.tun.ply.gg",
-  "gameplayVersion": "1.0.12",
+  "gameplayVersion": "1.0.13",
   "variantId": "standard",
   "profileId": "standard",
   "profileName": "Nexus Vanilla+ Standard",
@@ -261,6 +261,7 @@
     "shaderpacks/ComplementaryUnbound_r5.8.1.zip",
     "mods/nexus_instinct-2.0.0.jar",
     "mods/holobuilder-neoforge-1.21.1-0.1.5.jar",
+    "mods/tacz-neoforge-1.21.1-1.1.8-hotfix-r6.jar",
     "mods/Mine Frame Gen-neoforge-1.21.1-1.1.0.jar",
     "mods/createfood-neoforge-1.21.1-2.7.1.jar",
     "mods/cookingforblockheads-neoforge-1.21.1-21.1.24.jar",
@@ -286,7 +287,8 @@
     "mods/cookingforblockheads-neoforge-1.21.1-21.1.24.jar",
     "mods/createfood-neoforge-1.21.1-2.7.1.jar",
     "mods/k_turrets-neoforge-1.21.1-4.0.16.jar",
-    "mods/satako-neoforge-1.21.1-8.0.169.jar"
+    "mods/satako-neoforge-1.21.1-8.0.169.jar",
+    "mods/tacz-neoforge-1.21.1-1.1.8-hotfix-r6.jar"
   ],
   "configFiles": [
     "config/DistantHorizons.toml",
@@ -3154,6 +3156,15 @@
       "source": "Nexus"
     },
     {
+      "path": "mods/tacz-neoforge-1.21.1-1.1.8-hotfix-r6.jar",
+      "name": "TaCZ NeoForge 1.21.1 1.1.8-hotfix-r6",
+      "url": "https://cdn.modrinth.com/data/OypNE65K/versions/wPvGWIj9/tacz-neoforge-1.21.1-1.1.8-hotfix-r6.jar",
+      "algorithm": "sha512",
+      "hash": "ce14e985ce16d0517e7b1d41969a244818f46c1e4ae93842c3149963990aa488692c5372ecc4b71fe560a99794a3f865244dbef5b182beec4411148b4f83c53c",
+      "size": 57242132,
+      "source": "Modrinth"
+    },
+    {
       "path": "mods/Mine Frame Gen-neoforge-1.21.1-1.1.0.jar",
       "name": "Mine Frame Gen 1.1.0",
       "url": "https://cdn.modrinth.com/data/rGvQvLJm/versions/Of6KBjKL/Mine%20Frame%20Gen-neoforge-1.21.1-1.1.0.jar",
@@ -3327,9 +3338,9 @@
   ],
   "overrides": {
     "resource": "pack-overrides.zip",
-    "url": "https://raw.githubusercontent.com/ilyem974/nexus-vanillaplus/main/channel/variants/standard/pack-overrides-29194411b2035ab0.zip",
+    "url": "https://raw.githubusercontent.com/ilyem974/nexus-vanillaplus/main/channel/variants/standard/pack-overrides-94d949c54101017b.zip",
     "algorithm": "sha512",
-    "hash": "29194411b2035ab048ea36220cc6c40123b1de0c769e4c9576e8a95ea979ab82a5228088e487881abddd7c4749f7f2c52e25af8cc53a52eb28573d448fc4b72f",
-    "size": 779526
+    "hash": "94d949c54101017b35d975c07dfcaae5fb2b39d59f10bacf5a1f96739710b863b8843c8c509642c900b8182ea7b88a6c8d0865d20d5d6b7b6c5787467c5fc28b",
+    "size": 780612
   }
 }
