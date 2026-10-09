@@ -3,9 +3,9 @@
   "launcherVersion": "1.3.0",
   "minimumBootstrapVersion": "1.1.0",
   "url": "https://raw.githubusercontent.com/ilyem974/nexus-vanillaplus/main/launcher/NexusLauncher-1.3.0.dll",
-  "fileSignatureUrl": "https://raw.githubusercontent.com/ilyem974/nexus-vanillaplus/main/launcher/NexusLauncher-1.3.0.dll.sig",
+  "fileSignatureUrl": "https://raw.githubusercontent.com/ilyem974/nexus-vanillaplus/main/launcher/NexusLauncher-1.3.0.dll.sha512.sig",
   "algorithm": "sha512",
   "hash": "841b5934d3ccac6597fbce320db415f913a10a82b54b3cb79c04a766d6d128946e11fd0bb6245300414393dee10e0d884edc621777606c934c5812af6cfc7392",
   "size": 47432704,
-  "publishedAt": "2026-10-09T20:11:22.786022+00:00"
+  "publishedAt": "2026-10-09T20:15:16.287584+00:00"
 }
