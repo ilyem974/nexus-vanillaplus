@@ -1,0 +1,23 @@
+id,section,tl_in_s,tl_out_s,dur_s,source,src_in_s,plan_recherche,vitesse_pct,recadrage_9x16,effet,audio
+01,Ouverture,0.00,3.00,3.00,A,,"Tony au pupitre : regard (≈1,2 s) puis ""I am Iron Man"" + 6-8 images après",100,"Échelle 178 % mini pour remplir (source 1080p) ; ≈ 200-230 % sur le visage, yeux au tiers supérieur (y≈640)",Aucun,"Dialogue plein ; ambiance salle ; M1 entre sur la dernière syllabe (""Man"")"
+02,Héroïque,3.00,3.60,0.60,B,,Réacteur ARK qui s'allume (Mk III),100,Centré réacteur,Flash 2 images sur le 1er temps,M1 temps 1 ; whoosh
+03,Héroïque,3.60,4.30,0.70,B,,Plaques d'armure qui se verrouillent sur le bras/torse,100,"Suivre le mouvement, léger push-in 100→106 %",Aucun,Sons mécaniques source sur piste FX
+04,Héroïque,4.30,4.80,0.50,B,,"Casque qui se referme, yeux qui s'allument",100,Casque plein cadre,Vibration 4 images au verrouillage,Clank synchronisé à la caisse claire
+05,Héroïque,4.80,5.60,0.80,C,,"Décollage : propulseurs, départ du sol",140→100,Recadrage qui suit la montée,Flou directionnel vertical,Whoosh ; coupe sur accent
+06,Héroïque,5.60,6.20,0.60,C,,Gros plan casque / HUD en vol,100,Visage centré,Aucun,M1
+07,Héroïque,6.20,7.10,0.90,C,,"Vol large au-dessus de la ville, mouvement gauche→droite",120,Pan dans l'image dans le sens du mouvement,Flou de mouvement (obturateur 180°),Passage aérien
+08,Héroïque,7.10,7.70,0.60,B,,Avengers : armure Mk VII qui s'assemble en chute,100,Suivre Tony,Aucun,M1
+09,Héroïque,7.70,8.40,0.70,B,,Atterrissage / pose héroïque,60 (ralenti),Plein pied puis push-in,Ralenti sur l'impact + vibration 3 images,Impact grave sur temps fort
+10,Héroïque,8.40,9.00,0.60,B,,Infinity War : nanotech qui se déploie sur le torse,130,Torse/réacteur,Aucun,Montée musicale
+11,Héroïque,9.00,10.00,1.00,B,,Plan le plus fort : casque fermé face caméra ou tir de répulseur,100→ramp,Casque plein cadre,Push-in 100→112 %,M1 au sommet
+12,Gel,10.00,10.50,0.50,B,,Image figée du dernier photogramme de 11,0,Identique à 11,Frame hold,"Coupe sèche de M1 à 10.00 ; silence + traîne de reverb 0,3 s"
+13,Rembobinage,10.50,12.00,1.50,NEST 0-10 s,,"Séquence imbriquée ""HERO_NEST"" (plans 01-11) lue en inverse, 10 s → 1,5 s",-667 (inverse),Identique,Lignes VHS légères + aberration chromatique discrète ; on doit reconnaître 09 / 07 / 05 / 04,S1 rewind + 3 fragments inversés de M1 et du dialogue A
+14,Faux redémarrage,12.00,13.20,1.20,A,,"Même extrait, même in, même recadrage et mêmes sous-titres que 01 (regard uniquement, coupé avant la réplique)",100,Copie des attributs de 01,Aucun,"Ambiance salle seule, 1 s"
+15,Raccord,13.20,19.00,5.80,D,,"Tony Endgame, gant levé : regard, respiration, ""And I... am... Iron Man""",100,"Yeux alignés sur ceux de 14 (même y, même écart inter-pupillaire)","Coupe franche ; essais J-cut 2, 3 et 4 images ; fondu luma 2 images en option",Voix D démarre 2-4 images avant l'image ; aucune musique
+16,Snap,19.00,19.90,0.90,D,,Main / gant : claquement de doigts,100,Main centrée (y≈900),Vibration 3 images + flash blanc 2 images,"Snap +3 dB devant, sub-drop"
+17,Snap,19.90,21.00,1.10,D,,Conséquence : flash blanc puis armée de Thanos qui se désintègre,100,Sujet centré,Sortie de flash en fondu 8 images,Retombée ; M2 entre en fondu à 20.5
+18,Deuil,21.00,23.50,2.50,E,,"Tony blessé, adossé, visage brûlé",100,"Visage, push-in très lent 100→104 %",Aucun,M2 -24 dB ; respiration
+19,Deuil,23.50,26.50,3.00,E,,"Peter : ""Mr. Stark? ... We won, Mr. Stark.""",100,Visage de Peter,Aucun,Dialogue ; M2 ducking -8 dB
+20,Deuil,26.50,28.00,1.50,E,,Contrechamp Tony qui regarde Peter,100,Yeux de Tony,Aucun,M2
+21,Deuil,28.00,31.00,3.00,E,,"Pepper : ""You can rest now.""",100,"Pepper, puis main sur le réacteur si le plan existe",Aucun,Dialogue ; M2 remonte après la réplique
+22,Conclusion,31.00,35.00,4.00,E ou F,,"Réacteur qui s'éteint / dernier regard de Tony (ou réacteur sur l'eau, F)",100,Réacteur ou visage centré,Fondu au noir 24 images à partir de 34.0,Queue de M2 ; fin audio à 35.5 max

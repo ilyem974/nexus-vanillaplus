@@ -1,0 +1,6 @@
+# Les médias (films, musiques, exports, projets) ne sont jamais commités
+media/*/*
+export/*
+project/*
+reports/
+!.gitkeep
