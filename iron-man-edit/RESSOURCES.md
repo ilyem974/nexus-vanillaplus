@@ -4,6 +4,8 @@ Recherches web du 11 novembre 2026. Les prix viennent de sites tiers, pas des pa
 
 ## 1. Logiciels de montage : trois chemins possibles
 
+**Décision (11 novembre 2026) : chemin A, Adobe.** L'abonnement Adobe complet et CapCut Pro sont disponibles. Le montage se fait dans Premiere et After Effects, comme le prévoit le brief ; CapCut reste en réserve et n'entre pas dans la chaîne de fabrication, car un projet Premiere ne s'y ouvre pas.
+
 | Chemin | Logiciels | Coût relevé | Pour qui |
 |---|---|---|---|
 | **A. Adobe (celui du brief)** | Premiere + After Effects + Audition + Media Encoder | Creative Cloud Pro ≈ 78,65 € TTC/mois (engagement annuel). Premiere seul ≈ 26,21 €/mois. Étudiant ≈ 19,50 €/mois la 1re année puis ≈ 40,32 € | Contrôle le plus fin, projet `.prproj` modifiable |
@@ -89,8 +91,8 @@ Ces liens servent au repérage. Les conditions de YouTube n'autorisent pas le t�
 
 ## 7. À faire avant de lancer le montage
 
-1. Choisir le chemin A, B ou C.
-2. Installer les logiciels et vérifier les versions (Premiere et After Effects identiques).
+1. ~~Choisir le chemin A, B ou C~~ : chemin A (Adobe) retenu.
+2. Vérifier dans l'application Creative Cloud que Premiere et After Effects ont la même version majeure, et mettre à jour Audition et Media Encoder.
 3. Déposer les six clips dans `media/` avec les noms de `sources.csv`.
 4. Choisir deux musiques et les bruitages, les déposer dans `media/music` et `media/sfx`.
 5. Installer la police des sous-titres.
