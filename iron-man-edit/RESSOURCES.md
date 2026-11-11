@@ -41,7 +41,7 @@ Les chaînes citées dans le brief (TopMovieClips, JoBlo, Entertainment Access, 
 | C | Premier vol, Mark II | [1080p](https://www.youtube.com/watch?v=PvYhZT99g1s) · [4K](https://www.youtube.com/watch?v=9KhRwuf5AEg) · [« Yeah, I can fly »](https://www.youtube.com/watch?v=PZlL5gZeGDI) |
 | D | « I am Iron Man » et claquement, Endgame | [Snap Scene 4K](https://www.youtube.com/watch?v=om8rBseFo2o) · [« I am inevitable » / « And I am Iron Man »](https://www.youtube.com/watch?v=jk5X0t37HPI) · [Tony Stark Outsmarts Thanos](https://www.youtube.com/watch?v=gzwdOh7b9eg) |
 | E | Mort de Tony | [Tony Stark death and final goodbye](https://www.youtube.com/watch?v=3qqLhM-7uW4) · [Pepper: « You can rest now »](https://www.youtube.com/watch?v=jb2WuQ6pYjQ) |
-| F | Funérailles (optionnel) | [Funeral Scene](https://www.youtube.com/watch?v=sRwM0vIYwZc) · [Avengers: Endgame - Tony Stark's Funeral Scene](https://www.youtube.com/watch?v=oFzXBg6jkAY) |
+| F | Funérailles (ponton, proches réunis, réacteur sur le lac) | [Funeral Scene](https://www.youtube.com/watch?v=sRwM0vIYwZc) · [Avengers: Endgame - Tony Stark's Funeral Scene](https://www.youtube.com/watch?v=oFzXBg6jkAY) |
 
 Critères de choix d'un fichier :
 
@@ -68,8 +68,8 @@ Ces liens servent au repérage. Les conditions de YouTube n'autorisent pas le t�
 
 À chercher :
 
-- **Musique héroïque** : *cinematic rock*, *hybrid trailer*, *electronic drums*, 120-140 BPM, 7 s utiles.
-- **Musique triste** : *emotional piano*, *minimal strings*, 60-75 BPM, 15 s utiles avec une fin naturelle.
+- **Musique héroïque** : *cinematic rock*, *hybrid trailer*, *electronic drums*, 120-140 BPM, 6 s utiles.
+- **Musique triste** : *emotional piano*, *minimal strings*, 60-75 BPM, 20 s utiles avec une fin naturelle.
 - **Bruitages** : *tape rewind*, *whoosh*, *impact / hit*, *sub drop*, *finger snap*, *riser*.
 
 ## 5. Petits outils gratuits
@@ -85,7 +85,7 @@ Ces liens servent au repérage. Les conditions de YouTube n'autorisent pas le t�
 ## 6. Publication
 
 - Format commun à TikTok, Reels et Shorts : 9:16, 1080 × 1920, MP4 H.264.
-- Durées maximales relevées : Shorts 3 min, Reels 90 s à 3 min selon les sources, TikTok 10 min. L'édit de 35 s passe partout.
+- Durées maximales relevées : Shorts 3 min, Reels 90 s à 3 min selon les sources, TikTok 10 min. L'édit de 38,5 s passe partout.
 - Zones sûres : aucune plateforme ne publie de valeurs officielles. Garder textes et visages dans le centre, loin des ≈ 350 px du bas et de la colonne de droite.
 - **Droits** : un édit de film sans autorisation reste une contrefaçon, même si les studios le tolèrent souvent. Sur YouTube, une revendication Content ID peut bloquer ou monétiser la vidéo sans sanctionner la chaîne ; un retrait pour atteinte aux droits, lui, compte comme avertissement. Sur TikTok, le son peut être coupé ou la vidéo retirée.
 

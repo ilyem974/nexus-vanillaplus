@@ -25,7 +25,8 @@ def main():
     args = ap.parse_args()
     src = {r["repere"]: r for r in csv.DictReader(open(ROOT / "sources.csv", encoding="utf-8"))}
     items, skipped, seen = [], [], set()
-    for r in csv.DictReader(open(ROOT / "cutlist.csv", encoding="utf-8")):
+    cuts = list(csv.DictReader(open(ROOT / "cutlist.csv", encoding="utf-8")))
+    for r in cuts:
         key = r["source"].split()[0]
         s = src.get(key)
         path = ROOT / s["dossier"] / s["fichier_attendu"] if s else None
@@ -45,7 +46,7 @@ def main():
                  f'<media><video/><audio/></media></file>')
         items.append(f'<clipitem id="clip-{r["id"]}"><name>{escape(r["id"] + " " + r["plan_recherche"][:60])}</name>'
                      f'{rate()}<start>{a}</start><end>{b}</end><in>{i}</in><out>{i + b - a}</out>{f}</clipitem>')
-    total = frames(35)
+    total = frames(max(float(r["tl_out_s"]) for r in cuts))
     xml = (f'<?xml version="1.0" encoding="UTF-8"?>\n<!DOCTYPE xmeml>\n<xmeml version="4"><sequence id="IRON_MAN_EDIT">'
            f'<name>IRON_MAN_EDIT_assembly</name><duration>{total}</duration>{rate()}<media><video><format>'
            f'<samplecharacteristics>{rate()}<width>1080</width><height>1920</height>'

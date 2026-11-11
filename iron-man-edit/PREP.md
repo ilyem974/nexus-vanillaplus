@@ -29,7 +29,7 @@ Si aucun pilotage de Premiere n'est possible, le chemin de repli est prêt : `to
 | Fichier | Rôle |
 |---|---|
 | `sources.csv` | Journal des sources : origine, contenu recherché, timecodes, statut |
-| `cutlist.csv` | Découpage plan par plan (22 lignes, 0 → 35 s, continuité vérifiée) |
+| `cutlist.csv` | Découpage plan par plan (24 lignes, 0 → 38,5 s, continuité vérifiée) |
 | `subtitles/iron_man_edit_EN.srt` | Sous-titres anglais provisoires |
 | `tools/probe_sources.sh` | Contrôle cadence, définition, HDR, audio 48 kHz, langue → `reports/sources_report.csv` |
 | `tools/build_premiere_xml.py` | Génère la séquence d'assemblage importable dans Premiere |
@@ -50,14 +50,18 @@ Le détail est dans `cutlist.csv`. Structure :
 | Temps | Contenu |
 |---|---|
 | 0–3 s | A : regard puis « I am Iron Man », musique sur la dernière syllabe |
-| 3–10 s | 10 plans héroïques de 0,5 à 1 s (B, C) |
-| 10–10,5 s | Gel sur le plan le plus fort, coupe sèche de la musique |
-| 10,5–12 s | Séquence imbriquée `HERO_NEST` (0–10 s) inversée et accélérée |
-| 12–13,2 s | A à l'identique (même in, mêmes attributs, même sous-titre) |
-| 13,2–19 s | D : « And I… am… Iron Man » |
-| 19–21 s | Claquement, flash, désintégration |
-| 21–31 s | E : Tony blessé, Peter, Pepper |
-| 31–35 s | Dernier plan tenu, fondu au noir |
+| 3–9 s | 10 plans héroïques de 0,5 à 0,8 s (B, C) |
+| 9–9,5 s | Gel sur le plan le plus fort, coupe sèche de la musique |
+| 9,5–11 s | Séquence imbriquée `HERO_NEST` (0–9 s) inversée et accélérée |
+| 11–12,2 s | A à l'identique (même in, mêmes attributs, même sous-titre) |
+| 12,2–17,7 s | D : « And I… am… Iron Man » |
+| 17,7–19,2 s | Claquement, flash, désintégration |
+| 19,2–21,7 s | E : Tony titube et s'écroule |
+| 21,7–29,7 s | E : Peter, Pepper, le réacteur qui s'éteint |
+| 29,7–35,2 s | F : Pepper et Morgan au ponton, puis tous les proches réunis |
+| 35,2–38,5 s | F : le réacteur sur le lac, plan tenu, fondu au noir |
+
+Durée totale : **38,5 s** (version du 11 novembre 2026 ; la première version faisait 35 s et finissait sur Tony). La partie triste commence à 19,2 s et occupe la moitié de l'édit.
 
 Raccord A → D (plan 14 → 15) :
 1. Dupliquer le clip 01 pour le plan 14 (Coller les attributs) afin de garantir un cadrage identique.
@@ -65,18 +69,18 @@ Raccord A → D (plan 14 → 15) :
 3. Coupe franche. Tester l'audio de D en avance de 2, 3 puis 4 images ; garder la version où la respiration de Tony précède l'image sans mordre sur l'ambiance de la salle.
 4. Option discrète : fondu luma de 2 images ou baisse de saturation qui démarre sur la coupe. Rien de plus visible.
 
-Rembobinage : imbriquer 0–10 s, Vitesse/Durée −667 % (10 s → 1,5 s), interpolation « Échantillonnage d'images ». Si le résultat manque de lisibilité, passer la précomposition dans After Effects (remappage temporel avec paliers sur les plans 09, 07, 05, 04).
+Rembobinage : imbriquer 0–9 s, Vitesse/Durée −600 % (9 s → 1,5 s), interpolation « Échantillonnage d'images ». Si le résultat manque de lisibilité, passer la précomposition dans After Effects (remappage temporel avec paliers sur les plans 09, 07, 05, 04).
 
 ## 6. Musique, mixage, couleur
 
 Recherche Adobe Stock Audio (à faire à l'écoute, avec la timeline) :
-- **M1 héroïque** : *cinematic rock*, *hybrid trailer*, *electronic drums* ; 120-140 BPM ; attaque franche utilisable dès la première mesure ; 7 s utiles.
-- **M2 triste** : *emotional piano*, *minimal strings*, *ambient orchestral* ; 60-75 BPM ; pas de mélodie dans 1-4 kHz pendant les répliques ; 15 s utiles avec une fin naturelle.
-- Tonalités compatibles (même tonalité ou relative) pour que la reprise à 20,5 s ne heurte pas.
+- **M1 héroïque** : *cinematic rock*, *hybrid trailer*, *electronic drums* ; 120-140 BPM ; attaque franche utilisable dès la première mesure ; 6 s utiles.
+- **M2 triste** : *emotional piano*, *minimal strings*, *ambient orchestral* ; 60-75 BPM ; pas de mélodie dans 1-4 kHz pendant les répliques ; 20 s utiles avec une montée vers 30 s (funérailles) et une fin naturelle.
+- Tonalités compatibles (même tonalité ou relative) pour que la reprise à 19 s ne heurte pas.
 
 Niveaux cibles : dialogues −12 à −6 dBFS crête ; M1 −14 dB sous les voix, pleine en 3–10 s ; M2 −24 dB à l'entrée, ducking −8 dB sous les voix (Essential Sound → Atténuation automatique) ; intégré ≈ −14 LUFS, crête vraie −1 dBTP. Voix : passe-haut 80 Hz, réduction de bruit ≤ 20 %, pas de de-reverb agressif.
 
-Quatre événements sonores : (1) fin de « Iron Man » → entrée de M1 sur la syllabe ; (2) 10,00 s → coupe sèche, traîne de reverb 0,3 s ; (3) 10,5–12 s → rewind + fragments inversés du mix ; (4) 19 s → snap +3 dB, sub-drop, 0,5 s de quasi-silence.
+Quatre événements sonores : (1) fin de « Iron Man » → entrée de M1 sur la syllabe ; (2) 9,00 s → coupe sèche, traîne de reverb 0,3 s ; (3) 9,5–11 s → rewind + fragments inversés du mix ; (4) 17,7 s → snap +3 dB, sub-drop, 0,5 s de quasi-silence.
 
 Couleur (Lumetri sur calques d'effet) : partie 1 contraste +15, saturation 110, teinte renforcée sur rouges et ors (HSL secondaire), netteté +20. Partie 2 contraste −10, saturation 85, hautes lumières adoucies, carnations protégées par masque HSL.
 
