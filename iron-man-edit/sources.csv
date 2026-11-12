@@ -3,8 +3,10 @@ A,media/A_im1_press_conference,A_im1_press_conference.mp4,"Iron Man (2008) - sc�
 B,media/B_suit_ups,B_suit_ups.mp4,"Compilation officielle des armures, Marvel Entertainment (YouTube) - chapitres Iron Man 00:00 / The Avengers 05:02 / Infinity War 11:17 (indiqués par le brief, non vérifiés)","Assemblages, casque qui se ferme, réacteur, nanotech",,,,sans objet,MANQUANT
 C,media/C_first_flight,C_first_flight.mp4,"First Flight, JoBlo Movie Clips (YouTube)","Décollage, mouvement aérien, gros plan casque/HUD",,,,sans objet,MANQUANT
 D,media/D_endgame_snap,D_endgame_snap.mp4,"I Am Iron Man Snap, Entertainment Access (YouTube)","Regard, respiration, ""And I... am... Iron Man"", claquement, flash",,,,non,MANQUANT
-E,media/E_tony_death,E_tony_death.mp4,"Tony Stark's Death Scene (YouTube)","Tony qui s'écroule, Peter, Pepper (""You can rest now""), réacteur qui s'éteint",,,,non,MANQUANT
+E,media/E_tony_death,E_tony_death.mp4,Tony Stark's Death Scene (YouTube),"Tony qui s'écroule, Peter, Pepper (""You can rest now""), réacteur qui s'éteint",,,,non,MANQUANT
 F,media/F_funeral,F_funeral.mp4,"Tony Stark's Funeral, Filmey Box (YouTube)","Pepper et Morgan au ponton, travelling sur les proches réunis, couronne avec le réacteur (""Proof that Tony Stark has a heart"") sur le lac",,,,sans objet,MANQUANT
-M1,media/music,M1_hero.wav,"Adobe Stock Audio (à choisir à l'écoute)","Rock cinématique / percussions électroniques, 120-140 BPM, accent net dès la 1re mesure",,,,sans objet,MANQUANT
-M2,media/music,M2_sad.wav,"Adobe Stock Audio (à choisir à l'écoute)","Piano + cordes retenues, 60-75 BPM, médiums dégagés pour les voix",,,,sans objet,MANQUANT
+M1,media/music,M1_hero.wav,"AC/DC - Back in Black (album Back in Black, 1980), fichier acheté ; variante : Shoot to Thrill","Riff d'intro, 6 s utiles ; 93,6 BPM relevé, à mesurer sur le fichier",,,,sans objet,MANQUANT
+M2,media/music,M2_sad.wav,"Alan Silvestri - The Real Hero (bande originale Avengers: Endgame), fichier acheté","20 s utiles : début doux puis montée sur les funérailles, fin naturelle",,,,sans objet,MANQUANT
+M1b,media/music,M1_hero_safe.wav,"Adobe Firefly, générateur de musique (plan B sans risque de droits)","Hard rock instrumental, 94 BPM, 15 s (description dans MUSIQUE.md)",,,,sans objet,A GENERER
+M2b,media/music,M2_sad_safe.wav,"Adobe Firefly, générateur de musique (plan B sans risque de droits)","Piano et cordes, 65 BPM, 30 s (description dans MUSIQUE.md)",,,,sans objet,A GENERER
 S1,media/sfx,S1_rewind.wav,"Adobe Stock Audio / Essential Sound, ou fabriqué par inversion du mix 0-10 s","Tape rewind / scrub 1,5 s",,,,sans objet,A FABRIQUER

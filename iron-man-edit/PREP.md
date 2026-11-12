@@ -31,6 +31,9 @@ Si aucun pilotage de Premiere n'est possible, le chemin de repli est prêt : `to
 | `sources.csv` | Journal des sources : origine, contenu recherché, timecodes, statut |
 | `cutlist.csv` | Découpage plan par plan (24 lignes, 0 → 38,5 s, continuité vérifiée) |
 | `subtitles/iron_man_edit_EN.srt` | Sous-titres anglais provisoires |
+| `MUSIQUE.md` | Morceaux retenus, publication TikTok, plan B |
+| `RESSOURCES.md` | Logiciels, liens des clips, banques de sons |
+| `OUTILS_PILOTAGE_ADOBE.md` | Outils pour piloter Adobe depuis Claude |
 | `tools/probe_sources.sh` | Contrôle cadence, définition, HDR, audio 48 kHz, langue → `reports/sources_report.csv` |
 | `tools/build_premiere_xml.py` | Génère la séquence d'assemblage importable dans Premiere |
 | `media/`, `project/`, `export/` | Arborescence de travail (contenu exclu de git) |
@@ -72,6 +75,8 @@ Raccord A → D (plan 14 → 15) :
 Rembobinage : imbriquer 0–9 s, Vitesse/Durée −600 % (9 s → 1,5 s), interpolation « Échantillonnage d'images ». Si le résultat manque de lisibilité, passer la précomposition dans After Effects (remappage temporel avec paliers sur les plans 09, 07, 05, 04).
 
 ## 6. Musique, mixage, couleur
+
+**Choix du 12 novembre 2026 : AC/DC « Back in Black » puis Alan Silvestri « The Real Hero », avec un plan B généré dans Adobe Firefly. Détail, risques TikTok et méthode dans `MUSIQUE.md`.** Les critères ci-dessous restent valables pour le plan B.
 
 Recherche Adobe Stock Audio (à faire à l'écoute, avec la timeline) :
 - **M1 héroïque** : *cinematic rock*, *hybrid trailer*, *electronic drums* ; 120-140 BPM ; attaque franche utilisable dès la première mesure ; 6 s utiles.

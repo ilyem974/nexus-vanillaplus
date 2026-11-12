@@ -55,6 +55,8 @@ Ces liens servent au repérage. Les conditions de YouTube n'autorisent pas le t�
 
 ## 4. Musique et bruitages
 
+Morceaux retenus pour l'édit : voir `MUSIQUE.md` (AC/DC « Back in Black », Alan Silvestri « The Real Hero », plan B Adobe Firefly). Les banques ci-dessous servent aux bruitages et au plan B.
+
 | Source | Coût relevé | Remarque |
 |---|---|---|
 | **Adobe Stock Audio** (dans Premiere : panneau Essential Sound → Parcourir) | Écoute gratuite ; la licence demande des crédits ou un abonnement Stock, **non inclus** dans Creative Cloud | Plus de 30 000 morceaux, recherche par ambiance, genre, tempo, durée |
